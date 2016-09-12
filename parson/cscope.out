@@ -1,0 +1,13262 @@
+cscope 15 D:\cygwin\home\zhangzheng\mycgi\parson"               0000079404
+	@parson.c
+
+23 #ifdeà
+_MSC_VER
+
+
+24 
+	#_CRT_SECURE_NO_WARNINGS
+
+
+	)
+
+27 
+	~"·rsÚ.h
+"
+
+29 
+	~<¡dio.h
+>
+
+30 
+	~<¡dlib.h
+>
+
+31 
+	~<¡ršg.h
+>
+
+32 
+	~<ùy³.h
+>
+
+33 
+	~<m©h.h
+>
+
+35 
+	#STARTING_CAPACITY
+ 15
+
+	)
+
+36 
+	#ARRAY_MAX_CAPACITY
+ 122880
+
+	)
+
+37 
+	#OBJECT_MAX_CAPACITY
+ 960
+
+	)
+
+38 
+	#MAX_NESTING
+ 19
+
+	)
+
+39 
+	#DOUBLE_SERIALIZATION_FORMAT
+ "%.8f"
+
+	)
+
+41 
+	#SIZEOF_TOKEN
+(
+a
+è(×è- 1)
+
+	)
+
+42 
+	#SKIP_CHAR
+(
+¡r
+è((*¡r)++)
+
+	)
+
+43 
+	#SKIP_WHITESPACES
+(
+¡r
+è
+	`is¥aû
+(**¡r)è{ 
+	`SKIP_CHAR
+(¡r); }
+
+	)
+
+44 
+	#MAX
+(
+a
+, 
+b
+è(×è> (bè? (aè: (b))
+
+	)
+
+46 #undeà
+m®loc
+
+
+47 #undeà
+ä“
+
+
+49 
+JSON_M®loc_FunùiÚ
+ 
+	g·rsÚ_m®loc
+ = 
+m®loc
+;
+
+50 
+JSON_F»e_FunùiÚ
+ 
+	g·rsÚ_ä“
+ = 
+ä“
+;
+
+52 
+	#IS_CONT
+(
+b
+è((()(bè& 0xC0è=ğ0x80è
+
+	)
+
+55 
+	ujsÚ_v®ue_v®ue
+ {
+
+56 *
+	m¡ršg
+;
+
+57 
+	mnumb”
+;
+
+58 
+JSON_Objeù
+ *
+	mobjeù
+;
+
+59 
+JSON_A¼ay
+ *
+	m¬¿y
+;
+
+60 
+	mboŞ—n
+;
+
+61 
+	mnuÎ
+;
+
+62 } 
+	tJSON_V®ue_V®ue
+;
+
+64 
+	sjsÚ_v®ue_t
+ {
+
+65 
+JSON_V®ue_Ty³
+ 
+	mty³
+;
+
+66 
+JSON_V®ue_V®ue
+ 
+	mv®ue
+;
+
+69 
+	sjsÚ_objeù_t
+ {
+
+70 **
+	mÇmes
+;
+
+71 
+JSON_V®ue
+ **
+	mv®ues
+;
+
+72 
+size_t
+ 
+	mcouÁ
+;
+
+73 
+size_t
+ 
+	mÿ·c™y
+;
+
+76 
+	sjsÚ_¬¿y_t
+ {
+
+77 
+JSON_V®ue
+ **
+	m™ems
+;
+
+78 
+size_t
+ 
+	mcouÁ
+;
+
+79 
+size_t
+ 
+	mÿ·c™y
+;
+
+83 * 
+»ad_fe
+(cÚ¡ *
+f’ame
+);
+
+84 
+»move_comm’ts
+(*
+¡ršg
+, cÚ¡ *
+¡¬t_tok’
+, cÚ¡ *
+’d_tok’
+);
+
+85 * 
+·rsÚ_¡ºdup
+(cÚ¡ *
+¡ršg
+, 
+size_t
+ 
+n
+);
+
+86 * 
+·rsÚ_¡rdup
+(cÚ¡ *
+¡ršg
+);
+
+87 
+is_utf16_hex
+(cÚ¡ *
+¡ršg
+);
+
+88 
+num_by‹s_š_utf8_£qu’û
+(
+c
+);
+
+89 
+v”ify_utf8_£qu’û
+(cÚ¡ *
+¡ršg
+, *
+Ën
+);
+
+90 
+is_v®id_utf8
+(cÚ¡ *
+¡ršg
+, 
+size_t
+ 
+¡ršg_Ën
+);
+
+91 
+is_decim®
+(cÚ¡ *
+¡ršg
+, 
+size_t
+ 
+Ëngth
+);
+
+94 
+JSON_Objeù
+ * 
+jsÚ_objeù_š™
+();
+
+95 
+JSON_Stus
+ 
+jsÚ_objeù_add
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+JSON_V®ue
+ *
+v®ue
+);
+
+96 
+JSON_Stus
+ 
+jsÚ_objeù_»size
+(
+JSON_Objeù
+ *
+objeù
+, 
+size_t
+ 
+Ãw_ÿ·c™y
+);
+
+97 
+JSON_V®ue
+ * 
+jsÚ_objeù_ng‘_v®ue
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+size_t
+ 
+n
+);
+
+98 
+jsÚ_objeù_ä“
+(
+JSON_Objeù
+ *
+objeù
+);
+
+101 
+JSON_A¼ay
+ * 
+jsÚ_¬¿y_š™
+();
+
+102 
+JSON_Stus
+ 
+jsÚ_¬¿y_add
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+JSON_V®ue
+ *
+v®ue
+);
+
+103 
+JSON_Stus
+ 
+jsÚ_¬¿y_»size
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+Ãw_ÿ·c™y
+);
+
+104 
+jsÚ_¬¿y_ä“
+(
+JSON_A¼ay
+ *
+¬¿y
+);
+
+107 
+JSON_V®ue
+ * 
+jsÚ_v®ue_š™_¡ršg_no_cİy
+(*
+¡ršg
+);
+
+110 
+sk_quÙes
+(cÚ¡ **
+¡ršg
+);
+
+111 
+·r£_utf_16
+(cÚ¡ **
+uÅroûs£d
+, **
+´oûs£d
+);
+
+112 * 
+´oûss_¡ršg
+(cÚ¡ *
+šput
+, 
+size_t
+ 
+Ën
+);
+
+113 * 
+g‘_quÙed_¡ršg
+(cÚ¡ **
+¡ršg
+);
+
+114 
+JSON_V®ue
+ * 
+·r£_objeù_v®ue
+(cÚ¡ **
+¡ršg
+, 
+size_t
+ 
+Ã¡šg
+);
+
+115 
+JSON_V®ue
+ * 
+·r£_¬¿y_v®ue
+(cÚ¡ **
+¡ršg
+, 
+size_t
+ 
+Ã¡šg
+);
+
+116 
+JSON_V®ue
+ * 
+·r£_¡ršg_v®ue
+(cÚ¡ **
+¡ršg
+);
+
+117 
+JSON_V®ue
+ * 
+·r£_boŞ—n_v®ue
+(cÚ¡ **
+¡ršg
+);
+
+118 
+JSON_V®ue
+ * 
+·r£_numb”_v®ue
+(cÚ¡ **
+¡ršg
+);
+
+119 
+JSON_V®ue
+ * 
+·r£_nuÎ_v®ue
+(cÚ¡ **
+¡ršg
+);
+
+120 
+JSON_V®ue
+ * 
+·r£_v®ue
+(cÚ¡ **
+¡ršg
+, 
+size_t
+ 
+Ã¡šg
+);
+
+123 
+jsÚ_£rŸlize_to_bufãr_r
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, *
+buf
+, 
+Ëv–
+, 
+is_´‘ty
+, *
+num_buf
+);
+
+124 
+jsÚ_£rŸlize_¡ršg
+(cÚ¡ *
+¡ršg
+, *
+buf
+);
+
+125 
+­³nd_šd’t
+(*
+buf
+, 
+Ëv–
+);
+
+126 
+­³nd_¡ršg
+(*
+buf
+, cÚ¡ *
+¡ršg
+);
+
+129 * 
+	$·rsÚ_¡ºdup
+(cÚ¡ *
+¡ršg
+, 
+size_t
+ 
+n
+) {
+
+130 *
+ouut_¡ršg
+ = (*)
+	`·rsÚ_m®loc
+(
+n
+ + 1);
+
+131 ià(!
+ouut_¡ršg
+){
+
+132 
+	`³¼Ü
+("output string mallocƒrror\n");
+
+133  
+NULL
+;
+
+135 
+ouut_¡ršg
+[
+n
+] = '\0';
+
+136 
+	`¡ºıy
+(
+ouut_¡ršg
+, 
+¡ršg
+, 
+n
+);
+
+137  
+ouut_¡ršg
+;
+
+138 
+	}
+}
+
+140 * 
+	$·rsÚ_¡rdup
+(cÚ¡ *
+¡ršg
+) {
+
+141  
+	`·rsÚ_¡ºdup
+(
+¡ršg
+, 
+	`¡¾’
+(string));
+
+142 
+	}
+}
+
+144 
+	$is_utf16_hex
+(cÚ¡ *
+s
+) {
+
+145  
+	`isxdig™
+(
+s
+[0]) && isxdigit(s[1]) && isxdigit(s[2]) && isxdigit(s[3]);
+
+146 
+	}
+}
+
+148 
+	$num_by‹s_š_utf8_£qu’û
+(
+c
+) {
+
+149 ià(
+c
+ =ğ0xC0 || c =ğ0xC1 || c > 0xF4 || 
+	`IS_CONT
+(c)) {
+
+151 } ià((
+c
+ & 0x80) == 0) {
+
+153 } ià((
+c
+ & 0xE0) == 0xC0) {
+
+155 } ià((
+c
+ & 0xF0) == 0xE0) {
+
+157 } ià((
+c
+ & 0xF8) == 0xF0) {
+
+161 
+	}
+}
+
+163 
+	$v”ify_utf8_£qu’û
+(cÚ¡ *
+¡ršg
+, *
+Ën
+) {
+
+164 
+ı
+ = 0;
+
+165 *
+Ën
+ = 
+	`num_by‹s_š_utf8_£qu’û
+(
+¡ršg
+[0]);
+
+167 ià(*
+Ën
+ == 1) {
+
+168 
+ı
+ = 
+¡ršg
+[0];
+
+169 } ià(*
+Ën
+ =ğ2 && 
+	`IS_CONT
+(
+¡ršg
+[1])) {
+
+170 
+ı
+ = 
+¡ršg
+[0] & 0x1F;
+
+171 
+ı
+ = (ı << 6è| (
+¡ršg
+[1] & 0x3F);
+
+172 } ià(*
+Ën
+ =ğ3 && 
+	`IS_CONT
+(
+¡ršg
+[1]) && IS_CONT(string[2])) {
+
+173 
+ı
+ = (()
+¡ršg
+[0]) & 0xF;
+
+174 
+ı
+ = (ı << 6è| (
+¡ršg
+[1] & 0x3F);
+
+175 
+ı
+ = (ı << 6è| (
+¡ršg
+[2] & 0x3F);
+
+176 } ià(*
+Ën
+ =ğ4 && 
+	`IS_CONT
+(
+¡ršg
+[1]) && IS_CONT(string[2]) && IS_CONT(string[3])) {
+
+177 
+ı
+ = 
+¡ršg
+[0] & 0x7;
+
+178 
+ı
+ = (ı << 6è| (
+¡ršg
+[1] & 0x3F);
+
+179 
+ı
+ = (ı << 6è| (
+¡ršg
+[2] & 0x3F);
+
+180 
+ı
+ = (ı << 6è| (
+¡ršg
+[3] & 0x3F);
+
+186 ià((
+ı
+ < 0x80 && *
+Ën
+ > 1) ||
+
+187 (
+ı
+ < 0x800 && *
+Ën
+ > 2) ||
+
+188 (
+ı
+ < 0x10000 && *
+Ën
+ > 3)) {
+
+193 ià(
+ı
+ > 0x10FFFF) {
+
+198 ià(
+ı
+ >= 0xD800 && cp <= 0xDFFF) {
+
+203 
+	}
+}
+
+205 
+	$is_v®id_utf8
+(cÚ¡ *
+¡ršg
+, 
+size_t
+ 
+¡ršg_Ën
+) {
+
+206 
+Ën
+ = 0;
+
+207 cÚ¡ *
+¡ršg_’d
+ = 
+¡ršg
+ + 
+¡ršg_Ën
+;
+
+208 
+¡ršg
+ < 
+¡ršg_’d
+) {
+
+209 ià(!
+	`v”ify_utf8_£qu’û
+((cÚ¡ *)
+¡ršg
+, &
+Ën
+)) {
+
+212 
+¡ršg
+ +ğ
+Ën
+;
+
+215 
+	}
+}
+
+217 
+	$is_decim®
+(cÚ¡ *
+¡ršg
+, 
+size_t
+ 
+Ëngth
+) {
+
+218 ià(
+Ëngth
+ > 1 && 
+¡ršg
+[0] == '0' && string[1] != '.')
+
+220 ià(
+Ëngth
+ > 2 && !
+	`¡ºcmp
+(
+¡ršg
+, "-0", 2) && string[2] != '.')
+
+222 
+Ëngth
+--)
+
+223 ià(
+	`¡rchr
+("xX", 
+¡ršg
+[
+Ëngth
+]))
+
+226 
+	}
+}
+
+228 * 
+	$»ad_fe
+(cÚ¡ * 
+f’ame
+) {
+
+229 
+FILE
+ *
+å
+ = 
+	`fİ’
+(
+f’ame
+, "r");
+
+230 
+size_t
+ 
+fe_size
+;
+
+231 
+pos
+;
+
+232 *
+fe_cÚ‹Ás
+;
+
+233 ià(!
+å
+){
+
+234 
+	`³¼Ü
+("open fileƒrror\n");
+
+235  
+NULL
+;
+
+237 
+	`f£ek
+(
+å
+, 0L, 
+SEEK_END
+);
+
+238 
+pos
+ = 
+	`á–l
+(
+å
+);
+
+239 ià(
+pos
+ < 0) {
+
+240 
+	`´štf
+("pos < 0\n");
+
+241 
+	`fşo£
+(
+å
+);
+
+242  
+NULL
+;
+
+244 
+fe_size
+ = 
+pos
+;
+
+245 
+	`»wšd
+(
+å
+);
+
+246 
+fe_cÚ‹Ás
+ = (*)
+	`·rsÚ_m®loc
+((è* (
+fe_size
+ + 1));
+
+247 ià(!
+fe_cÚ‹Ás
+) {
+
+248 
+	`³¼Ü
+("content mallocƒrror\n");
+
+249 
+	`fşo£
+(
+å
+);
+
+250  
+NULL
+;
+
+252 ià(
+	`ä—d
+(
+fe_cÚ‹Ás
+, 
+fe_size
+, 1, 
+å
+) < 1) {
+
+253 ià(
+	`ã¼Ü
+(
+å
+)) {
+
+254 
+	`³¼Ü
+("freadƒrror\n");
+
+255 
+	`fşo£
+(
+å
+);
+
+256 
+	`·rsÚ_ä“
+(
+fe_cÚ‹Ás
+);
+
+257  
+NULL
+;
+
+260 
+	`fşo£
+(
+å
+);
+
+261 
+fe_cÚ‹Ás
+[
+fe_size
+] = '\0';
+
+262  
+fe_cÚ‹Ás
+;
+
+263 
+	}
+}
+
+265 
+	$»move_comm’ts
+(*
+¡ršg
+, cÚ¡ *
+¡¬t_tok’
+, cÚ¡ *
+’d_tok’
+) {
+
+266 
+š_¡ršg
+ = 0, 
+esÿ³d
+ = 0;
+
+267 
+size_t
+ 
+i
+;
+
+268 *
+±r
+ = 
+NULL
+, 
+cu¼’t_ch¬
+;
+
+269 
+size_t
+ 
+¡¬t_tok’_Ën
+ = 
+	`¡¾’
+(
+¡¬t_tok’
+);
+
+270 
+size_t
+ 
+’d_tok’_Ën
+ = 
+	`¡¾’
+(
+’d_tok’
+);
+
+271 ià(
+¡¬t_tok’_Ën
+ =ğ0 || 
+’d_tok’_Ën
+ == 0)
+
+273 (
+cu¼’t_ch¬
+ = *
+¡ršg
+) != '\0') {
+
+274 ià(
+cu¼’t_ch¬
+ =ğ'\\' && !
+esÿ³d
+) {
+
+275 
+esÿ³d
+ = 1;
+
+276 
+¡ršg
+++;
+
+278 } ià(
+cu¼’t_ch¬
+ =ğ'\"' && !
+esÿ³d
+) {
+
+279 
+š_¡ršg
+ = !in_string;
+
+280 } ià(!
+š_¡ršg
+ && 
+	`¡ºcmp
+(
+¡ršg
+, 
+¡¬t_tok’
+, 
+¡¬t_tok’_Ën
+) == 0) {
+
+281 
+i
+ = 0; i < 
+¡¬t_tok’_Ën
+; i++)
+
+282 
+¡ršg
+[
+i
+] = ' ';
+
+283 
+¡ršg
+ = sŒšg + 
+¡¬t_tok’_Ën
+;
+
+284 
+±r
+ = 
+	`¡r¡r
+(
+¡ršg
+, 
+’d_tok’
+);
+
+285 ià(!
+±r
+)
+
+287 
+i
+ = 0; i < (
+±r
+ - 
+¡ršg
+è+ 
+’d_tok’_Ën
+; i++)
+
+288 
+¡ršg
+[
+i
+] = ' ';
+
+289 
+¡ršg
+ = 
+±r
+ + 
+’d_tok’_Ën
+ - 1;
+
+291 
+esÿ³d
+ = 0;
+
+292 
+¡ršg
+++;
+
+294 
+	}
+}
+
+297 
+JSON_Objeù
+ * 
+	$jsÚ_objeù_š™
+() {
+
+298 
+JSON_Objeù
+ *
+Ãw_obj
+ = (JSON_Objeù*)
+	`·rsÚ_m®loc
+((JSON_Object));
+
+299 ià(!
+Ãw_obj
+)
+
+300  
+NULL
+;
+
+301 
+Ãw_obj
+->
+Çmes
+ = (**)
+NULL
+;
+
+302 
+Ãw_obj
+->
+v®ues
+ = (
+JSON_V®ue
+**)
+NULL
+;
+
+303 
+Ãw_obj
+->
+ÿ·c™y
+ = 0;
+
+304 
+Ãw_obj
+->
+couÁ
+ = 0;
+
+305  
+Ãw_obj
+;
+
+306 
+	}
+}
+
+308 
+JSON_Stus
+ 
+	$jsÚ_objeù_add
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+JSON_V®ue
+ *
+v®ue
+) {
+
+309 
+size_t
+ 
+šdex
+ = 0;
+
+310 ià(
+objeù
+ =ğ
+NULL
+ || 
+Çme
+ =ğNULL || 
+v®ue
+ == NULL) {
+
+311  
+JSONFau»
+;
+
+313 ià(
+objeù
+->
+couÁ
+ >ğobjeù->
+ÿ·c™y
+) {
+
+314 
+size_t
+ 
+Ãw_ÿ·c™y
+ = 
+	`MAX
+(
+objeù
+->
+ÿ·c™y
+ * 2, 
+STARTING_CAPACITY
+);
+
+315 ià(
+Ãw_ÿ·c™y
+ > 
+OBJECT_MAX_CAPACITY
+)
+
+316  
+JSONFau»
+;
+
+317 ià(
+	`jsÚ_objeù_»size
+(
+objeù
+, 
+Ãw_ÿ·c™y
+è=ğ
+JSONFau»
+)
+
+318  
+JSONFau»
+;
+
+320 ià(
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+è!ğ
+NULL
+)
+
+321  
+JSONFau»
+;
+
+322 
+šdex
+ = 
+objeù
+->
+couÁ
+;
+
+323 
+objeù
+->
+Çmes
+[
+šdex
+] = 
+	`·rsÚ_¡rdup
+(
+Çme
+);
+
+324 ià(
+objeù
+->
+Çmes
+[
+šdex
+] =ğ
+NULL
+)
+
+325  
+JSONFau»
+;
+
+326 
+objeù
+->
+v®ues
+[
+šdex
+] = 
+v®ue
+;
+
+327 
+objeù
+->
+couÁ
+++;
+
+328  
+JSONSucûss
+;
+
+329 
+	}
+}
+
+331 
+JSON_Stus
+ 
+	$jsÚ_objeù_»size
+(
+JSON_Objeù
+ *
+objeù
+, 
+size_t
+ 
+Ãw_ÿ·c™y
+) {
+
+332 **
+‹mp_Çmes
+ = 
+NULL
+;
+
+333 
+JSON_V®ue
+ **
+‹mp_v®ues
+ = 
+NULL
+;
+
+335 ià((
+objeù
+->
+Çmes
+ =ğ
+NULL
+ && objeù->
+v®ues
+ != NULL) ||
+
+336 (
+objeù
+->
+Çmes
+ !ğ
+NULL
+ && objeù->
+v®ues
+ == NULL) ||
+
+337 
+Ãw_ÿ·c™y
+ == 0) {
+
+338  
+JSONFau»
+;
+
+341 
+‹mp_Çmes
+ = (**)
+	`·rsÚ_m®loc
+(
+Ãw_ÿ·c™y
+ * (*));
+
+342 ià(
+‹mp_Çmes
+ =ğ
+NULL
+)
+
+343  
+JSONFau»
+;
+
+345 
+‹mp_v®ues
+ = (
+JSON_V®ue
+**)
+	`·rsÚ_m®loc
+(
+Ãw_ÿ·c™y
+ * (JSON_Value*));
+
+346 ià(
+‹mp_Çmes
+ =ğ
+NULL
+) {
+
+347 
+	`·rsÚ_ä“
+(
+‹mp_Çmes
+);
+
+348  
+JSONFau»
+;
+
+351 ià(
+objeù
+->
+Çmes
+ !ğ
+NULL
+ && objeù->
+v®ues
+ !ğNULL && objeù->
+couÁ
+ > 0) {
+
+352 
+	`memıy
+(
+‹mp_Çmes
+, 
+objeù
+->
+Çmes
+, objeù->
+couÁ
+ * (*));
+
+353 
+	`memıy
+(
+‹mp_v®ues
+, 
+objeù
+->
+v®ues
+, objeù->
+couÁ
+ * (
+JSON_V®ue
+*));
+
+355 
+	`·rsÚ_ä“
+(
+objeù
+->
+Çmes
+);
+
+356 
+	`·rsÚ_ä“
+(
+objeù
+->
+v®ues
+);
+
+357 
+objeù
+->
+Çmes
+ = 
+‹mp_Çmes
+;
+
+358 
+objeù
+->
+v®ues
+ = 
+‹mp_v®ues
+;
+
+359 
+objeù
+->
+ÿ·c™y
+ = 
+Ãw_ÿ·c™y
+;
+
+360  
+JSONSucûss
+;
+
+361 
+	}
+}
+
+363 
+JSON_V®ue
+ * 
+	$jsÚ_objeù_ng‘_v®ue
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+size_t
+ 
+n
+) {
+
+364 
+size_t
+ 
+i
+, 
+Çme_Ëngth
+;
+
+365 
+i
+ = 0; i < 
+	`jsÚ_objeù_g‘_couÁ
+(
+objeù
+); i++) {
+
+366 
+Çme_Ëngth
+ = 
+	`¡¾’
+(
+objeù
+->
+Çmes
+[
+i
+]);
+
+367 ià(
+Çme_Ëngth
+ !ğ
+n
+)
+
+369 ià(
+	`¡ºcmp
+(
+objeù
+->
+Çmes
+[
+i
+], 
+Çme
+, 
+n
+) == 0)
+
+370  
+objeù
+->
+v®ues
+[
+i
+];
+
+372  
+NULL
+;
+
+373 
+	}
+}
+
+375 
+	$jsÚ_objeù_ä“
+(
+JSON_Objeù
+ *
+objeù
+) {
+
+376 
+objeù
+->
+couÁ
+--) {
+
+377 
+	`·rsÚ_ä“
+(
+objeù
+->
+Çmes
+[objeù->
+couÁ
+]);
+
+378 
+	`jsÚ_v®ue_ä“
+(
+objeù
+->
+v®ues
+[objeù->
+couÁ
+]);
+
+380 
+	`·rsÚ_ä“
+(
+objeù
+->
+Çmes
+);
+
+381 
+	`·rsÚ_ä“
+(
+objeù
+->
+v®ues
+);
+
+382 
+	`·rsÚ_ä“
+(
+objeù
+);
+
+383 
+	}
+}
+
+386 
+JSON_A¼ay
+ * 
+	$jsÚ_¬¿y_š™
+() {
+
+387 
+JSON_A¼ay
+ *
+Ãw_¬¿y
+ = (JSON_A¼ay*)
+	`·rsÚ_m®loc
+((JSON_Array));
+
+388 ià(!
+Ãw_¬¿y
+)
+
+389  
+NULL
+;
+
+390 
+Ãw_¬¿y
+->
+™ems
+ = (
+JSON_V®ue
+**)
+NULL
+;
+
+391 
+Ãw_¬¿y
+->
+ÿ·c™y
+ = 0;
+
+392 
+Ãw_¬¿y
+->
+couÁ
+ = 0;
+
+393  
+Ãw_¬¿y
+;
+
+394 
+	}
+}
+
+396 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_add
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+JSON_V®ue
+ *
+v®ue
+) {
+
+397 ià(
+¬¿y
+->
+couÁ
+ >ğ¬¿y->
+ÿ·c™y
+) {
+
+398 
+size_t
+ 
+Ãw_ÿ·c™y
+ = 
+	`MAX
+(
+¬¿y
+->
+ÿ·c™y
+ * 2, 
+STARTING_CAPACITY
+);
+
+399 ià(
+Ãw_ÿ·c™y
+ > 
+ARRAY_MAX_CAPACITY
+)
+
+400  
+JSONFau»
+;
+
+401 ià(
+	`jsÚ_¬¿y_»size
+(
+¬¿y
+, 
+Ãw_ÿ·c™y
+è=ğ
+JSONFau»
+)
+
+402  
+JSONFau»
+;
+
+404 
+¬¿y
+->
+™ems
+[¬¿y->
+couÁ
+] = 
+v®ue
+;
+
+405 
+¬¿y
+->
+couÁ
+++;
+
+406  
+JSONSucûss
+;
+
+407 
+	}
+}
+
+409 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_»size
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+Ãw_ÿ·c™y
+) {
+
+410 
+JSON_V®ue
+ **
+Ãw_™ems
+ = 
+NULL
+;
+
+411 ià(
+Ãw_ÿ·c™y
+ == 0) {
+
+412  
+JSONFau»
+;
+
+414 
+Ãw_™ems
+ = 
+	`·rsÚ_m®loc
+(
+Ãw_ÿ·c™y
+ * (
+JSON_V®ue
+*));
+
+415 ià(
+Ãw_™ems
+ =ğ
+NULL
+) {
+
+416  
+JSONFau»
+;
+
+418 ià(
+¬¿y
+->
+™ems
+ !ğ
+NULL
+ &&‡¼ay->
+couÁ
+ > 0) {
+
+419 
+	`memıy
+(
+Ãw_™ems
+, 
+¬¿y
+->
+™ems
+,‡¼ay->
+couÁ
+ * (
+JSON_V®ue
+*));
+
+421 
+	`·rsÚ_ä“
+(
+¬¿y
+->
+™ems
+);
+
+422 
+¬¿y
+->
+™ems
+ = 
+Ãw_™ems
+;
+
+423 
+¬¿y
+->
+ÿ·c™y
+ = 
+Ãw_ÿ·c™y
+;
+
+424  
+JSONSucûss
+;
+
+425 
+	}
+}
+
+427 
+	$jsÚ_¬¿y_ä“
+(
+JSON_A¼ay
+ *
+¬¿y
+) {
+
+428 
+¬¿y
+->
+couÁ
+--)
+
+429 
+	`jsÚ_v®ue_ä“
+(
+¬¿y
+->
+™ems
+[¬¿y->
+couÁ
+]);
+
+430 
+	`·rsÚ_ä“
+(
+¬¿y
+->
+™ems
+);
+
+431 
+	`·rsÚ_ä“
+(
+¬¿y
+);
+
+432 
+	}
+}
+
+435 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_š™_¡ršg_no_cİy
+(*
+¡ršg
+) {
+
+436 
+JSON_V®ue
+ *
+Ãw_v®ue
+ = (JSON_V®ue*)
+	`·rsÚ_m®loc
+((JSON_Value));
+
+437 ià(!
+Ãw_v®ue
+)
+
+438  
+NULL
+;
+
+439 
+Ãw_v®ue
+->
+ty³
+ = 
+JSONSŒšg
+;
+
+440 
+Ãw_v®ue
+->
+v®ue
+.
+¡ršg
+ = string;
+
+441  
+Ãw_v®ue
+;
+
+442 
+	}
+}
+
+445 
+	$sk_quÙes
+(cÚ¡ **
+¡ršg
+) {
+
+446 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+447 **
+¡ršg
+ != '\"') {
+
+448 ià(**
+¡ršg
+ == '\0')
+
+450 ià(**
+¡ršg
+ == '\\') {
+
+451 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+452 ià(**
+¡ršg
+ == '\0')
+
+455 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+457 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+458 
+	}
+}
+
+460 
+	$·r£_utf_16
+(cÚ¡ **
+uÅroûs£d
+, **
+´oûs£d
+) {
+
+461 
+ı
+, 
+Ëad
+, 
+Œa
+;
+
+462 *
+´oûs£d_±r
+ = *
+´oûs£d
+;
+
+463 cÚ¡ *
+uÅroûs£d_±r
+ = *
+uÅroûs£d
+;
+
+464 
+uÅroûs£d_±r
+++;
+
+465 ià(!
+	`is_utf16_hex
+((cÚ¡ *)
+uÅroûs£d_±r
+è|| 
+	`ssÿnf
+(uÅroûs£d_±r, "%4x", &
+ı
+è=ğ
+EOF
+)
+
+466  
+JSONFau»
+;
+
+467 ià(
+ı
+ < 0x80) {
+
+468 *
+´oûs£d_±r
+ = 
+ı
+;
+
+469 } ià(
+ı
+ < 0x800) {
+
+470 *
+´oûs£d_±r
+++ = ((
+ı
+ >> 6) & 0x1F) | 0xC0;
+
+471 *
+´oûs£d_±r
+ = ((
+ı
+ ) & 0x3F) | 0x80;
+
+472 } ià(
+ı
+ < 0xD800 || cp > 0xDFFF) {
+
+473 *
+´oûs£d_±r
+++ = ((
+ı
+ >> 12) & 0x0F) | 0xE0;
+
+474 *
+´oûs£d_±r
+++ = ((
+ı
+ >> 6) & 0x3F) | 0x80;
+
+475 *
+´oûs£d_±r
+ = ((
+ı
+ ) & 0x3F) | 0x80;
+
+476 } ià(
+ı
+ >= 0xD800 && cp <= 0xDBFF) {
+
+477 
+Ëad
+ = 
+ı
+;
+
+478 
+uÅroûs£d_±r
+ += 4;
+
+479 ià(*
+uÅroûs£d_±r
+++ != '\\' || *unprocessed_ptr++ != 'u' ||
+
+480 !
+	`is_utf16_hex
+((cÚ¡ *)
+uÅroûs£d_±r
+) ||
+
+481 
+	`ssÿnf
+(
+uÅroûs£d_±r
+, "%4x", &
+Œa
+è=ğ
+EOF
+ ||
+
+482 
+Œa
+ < 0xDC00 ||rail > 0xDFFF) {
+
+483  
+JSONFau»
+;
+
+485 
+ı
+ = ((((
+Ëad
+ - 0xD800è& 0x3FFè<< 10è| ((
+Œa
+ - 0xDC00) & 0x3FF)) + 0x010000;
+
+486 *
+´oûs£d_±r
+++ = (((
+ı
+ >> 18) & 0x07) | 0xF0);
+
+487 *
+´oûs£d_±r
+++ = (((
+ı
+ >> 12) & 0x3F) | 0x80);
+
+488 *
+´oûs£d_±r
+++ = (((
+ı
+ >> 6) & 0x3F) | 0x80);
+
+489 *
+´oûs£d_±r
+ = (((
+ı
+ ) & 0x3F) | 0x80);
+
+491  
+JSONFau»
+;
+
+493 
+uÅroûs£d_±r
+ += 3;
+
+494 *
+´oûs£d
+ = 
+´oûs£d_±r
+;
+
+495 *
+uÅroûs£d
+ = 
+uÅroûs£d_±r
+;
+
+496  
+JSONSucûss
+;
+
+497 
+	}
+}
+
+502 * 
+	$´oûss_¡ršg
+(cÚ¡ *
+šput
+, 
+size_t
+ 
+Ën
+) {
+
+503 cÚ¡ *
+šput_±r
+ = 
+šput
+;
+
+504 
+size_t
+ 
+š™Ÿl_size
+ = (
+Ën
+ + 1) * ();
+
+505 
+size_t
+ 
+fš®_size
+ = 0;
+
+506 *
+ouut
+ = (*)
+	`·rsÚ_m®loc
+(
+š™Ÿl_size
+);
+
+507 *
+ouut_±r
+ = 
+ouut
+;
+
+508 *
+»sized_ouut
+ = 
+NULL
+;
+
+509 (*
+šput_±r
+ !ğ'\0'è&& (
+size_t
+)(šput_±¸- 
+šput
+è< 
+Ën
+) {
+
+510 ià(*
+šput_±r
+ == '\\') {
+
+511 
+šput_±r
+++;
+
+512 *
+šput_±r
+) {
+
+513 '\"': *
+ouut_±r
+ = '\"'; ;
+
+514 '\\': *
+ouut_±r
+ = '\\'; ;
+
+515 '/': *
+ouut_±r
+ = '/'; ;
+
+516 'b': *
+ouut_±r
+ = '\b'; ;
+
+517 'f': *
+ouut_±r
+ = '\f'; ;
+
+518 'n': *
+ouut_±r
+ = '\n'; ;
+
+519 'r': *
+ouut_±r
+ = '\r'; ;
+
+520 't': *
+ouut_±r
+ = '\t'; ;
+
+522 ià(
+	`·r£_utf_16
+(&
+šput_±r
+, &
+ouut_±r
+è=ğ
+JSONFau»
+)
+
+523 
+”rÜ
+;
+
+526 
+”rÜ
+;
+
+528 } ià(()*
+šput_±r
+ < 0x20) {
+
+529 
+”rÜ
+;
+
+531 *
+ouut_±r
+ = *
+šput_±r
+;
+
+533 
+ouut_±r
+++;
+
+534 
+šput_±r
+++;
+
+536 *
+ouut_±r
+ = '\0';
+
+538 
+fš®_size
+ = (
+size_t
+)(
+ouut_±r
+ - 
+ouut
+) + 1;
+
+539 
+»sized_ouut
+ = (*)
+	`·rsÚ_m®loc
+(
+fš®_size
+);
+
+540 ià(
+»sized_ouut
+ =ğ
+NULL
+)
+
+541 
+”rÜ
+;
+
+542 
+	`memıy
+(
+»sized_ouut
+, 
+ouut
+, 
+fš®_size
+);
+
+543 
+	`·rsÚ_ä“
+(
+ouut
+);
+
+544  
+»sized_ouut
+;
+
+545 
+”rÜ
+:
+
+546 
+	`·rsÚ_ä“
+(
+ouut
+);
+
+547  
+NULL
+;
+
+548 
+	}
+}
+
+552 * 
+	$g‘_quÙed_¡ršg
+(cÚ¡ **
+¡ršg
+) {
+
+553 cÚ¡ *
+¡ršg_¡¬t
+ = *
+¡ršg
+;
+
+554 
+size_t
+ 
+¡ršg_Ën
+ = 0;
+
+555 
+	`sk_quÙes
+(
+¡ršg
+);
+
+556 ià(**
+¡ršg
+ == '\0')
+
+557  
+NULL
+;
+
+558 
+¡ršg_Ën
+ = *
+¡ršg
+ - 
+¡ršg_¡¬t
+ - 2;
+
+559  
+	`´oûss_¡ršg
+(
+¡ršg_¡¬t
+ + 1, 
+¡ršg_Ën
+);
+
+560 
+	}
+}
+
+562 
+JSON_V®ue
+ * 
+	$·r£_v®ue
+(cÚ¡ **
+¡ršg
+, 
+size_t
+ 
+Ã¡šg
+) {
+
+563 ià(
+Ã¡šg
+ > 
+MAX_NESTING
+)
+
+564  
+NULL
+;
+
+565 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+566 **
+¡ršg
+) {
+
+568  
+	`·r£_objeù_v®ue
+(
+¡ršg
+, 
+Ã¡šg
+ + 1);
+
+570  
+	`·r£_¬¿y_v®ue
+(
+¡ršg
+, 
+Ã¡šg
+ + 1);
+
+572  
+	`·r£_¡ršg_v®ue
+(
+¡ršg
+);
+
+574  
+	`·r£_boŞ—n_v®ue
+(
+¡ršg
+);
+
+578  
+	`·r£_numb”_v®ue
+(
+¡ršg
+);
+
+580  
+	`·r£_nuÎ_v®ue
+(
+¡ršg
+);
+
+582  
+NULL
+;
+
+584 
+	}
+}
+
+586 
+JSON_V®ue
+ * 
+	$·r£_objeù_v®ue
+(cÚ¡ **
+¡ršg
+, 
+size_t
+ 
+Ã¡šg
+) {
+
+587 
+JSON_V®ue
+ *
+ouut_v®ue
+ = 
+	`jsÚ_v®ue_š™_objeù
+(), *
+Ãw_v®ue
+ = 
+NULL
+;
+
+588 
+JSON_Objeù
+ *
+ouut_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+ouut_v®ue
+);
+
+589 *
+Ãw_key
+ = 
+NULL
+;
+
+590 ià(
+ouut_v®ue
+ =ğ
+NULL
+){
+
+591 
+	`´štf
+("json init objectƒrror\n");
+
+592  
+NULL
+;
+
+594 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+595 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+596 ià(**
+¡ršg
+ == '}') {
+
+597 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+598  
+ouut_v®ue
+;
+
+600 **
+¡ršg
+ != '\0') {
+
+601 
+Ãw_key
+ = 
+	`g‘_quÙed_¡ršg
+(
+¡ršg
+);
+
+602 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+603 ià(
+Ãw_key
+ =ğ
+NULL
+ || **
+¡ršg
+ != ':') {
+
+604 
+	`´štf
+("new key == NULL\n");
+
+605 
+	`jsÚ_v®ue_ä“
+(
+ouut_v®ue
+);
+
+606  
+NULL
+;
+
+608 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+609 
+Ãw_v®ue
+ = 
+	`·r£_v®ue
+(
+¡ršg
+, 
+Ã¡šg
+);
+
+610 ià(
+Ãw_v®ue
+ =ğ
+NULL
+) {
+
+611 
+	`´štf
+("new value == NULL\n");
+
+612 
+	`·rsÚ_ä“
+(
+Ãw_key
+);
+
+613 
+	`jsÚ_v®ue_ä“
+(
+ouut_v®ue
+);
+
+614  
+NULL
+;
+
+616 ià(
+	`jsÚ_objeù_add
+(
+ouut_objeù
+, 
+Ãw_key
+, 
+Ãw_v®ue
+è=ğ
+JSONFau»
+) {
+
+617 
+	`´štf
+("json object‡ddƒrror\n");
+
+618 
+	`·rsÚ_ä“
+(
+Ãw_key
+);
+
+619 
+	`·rsÚ_ä“
+(
+Ãw_v®ue
+);
+
+620 
+	`jsÚ_v®ue_ä“
+(
+ouut_v®ue
+);
+
+621  
+NULL
+;
+
+623 
+	`·rsÚ_ä“
+(
+Ãw_key
+);
+
+624 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+625 ià(**
+¡ršg
+ != ',')
+
+627 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+628 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+630 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+631 ià(**
+¡ršg
+ != '}' ||
+
+632 
+	`jsÚ_objeù_»size
+(
+ouut_objeù
+, 
+	`jsÚ_objeù_g‘_couÁ
+(ouut_objeù)è=ğ
+JSONFau»
+) {
+
+633 
+	`´štf
+("json object„esizeƒrror\n");
+
+634 
+	`jsÚ_v®ue_ä“
+(
+ouut_v®ue
+);
+
+635  
+NULL
+;
+
+637 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+638  
+ouut_v®ue
+;
+
+639 
+	}
+}
+
+641 
+JSON_V®ue
+ * 
+	$·r£_¬¿y_v®ue
+(cÚ¡ **
+¡ršg
+, 
+size_t
+ 
+Ã¡šg
+) {
+
+642 
+JSON_V®ue
+ *
+ouut_v®ue
+ = 
+	`jsÚ_v®ue_š™_¬¿y
+(), *
+Ãw_¬¿y_v®ue
+ = 
+NULL
+;
+
+643 
+JSON_A¼ay
+ *
+ouut_¬¿y
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+ouut_v®ue
+);
+
+644 ià(!
+ouut_v®ue
+)
+
+645  
+NULL
+;
+
+646 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+647 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+648 ià(**
+¡ršg
+ == ']') {
+
+649 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+650  
+ouut_v®ue
+;
+
+652 **
+¡ršg
+ != '\0') {
+
+653 
+Ãw_¬¿y_v®ue
+ = 
+	`·r£_v®ue
+(
+¡ršg
+, 
+Ã¡šg
+);
+
+654 ià(!
+Ãw_¬¿y_v®ue
+) {
+
+655 
+	`jsÚ_v®ue_ä“
+(
+ouut_v®ue
+);
+
+656  
+NULL
+;
+
+658 ià(
+	`jsÚ_¬¿y_add
+(
+ouut_¬¿y
+, 
+Ãw_¬¿y_v®ue
+è=ğ
+JSONFau»
+) {
+
+659 
+	`·rsÚ_ä“
+(
+Ãw_¬¿y_v®ue
+);
+
+660 
+	`jsÚ_v®ue_ä“
+(
+ouut_v®ue
+);
+
+661  
+NULL
+;
+
+663 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+664 ià(**
+¡ršg
+ != ',')
+
+666 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+667 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+669 
+	`SKIP_WHITESPACES
+(
+¡ršg
+);
+
+670 ià(**
+¡ršg
+ != ']' ||
+
+671 
+	`jsÚ_¬¿y_»size
+(
+ouut_¬¿y
+, 
+	`jsÚ_¬¿y_g‘_couÁ
+(ouut_¬¿y)è=ğ
+JSONFau»
+) {
+
+672 
+	`jsÚ_v®ue_ä“
+(
+ouut_v®ue
+);
+
+673  
+NULL
+;
+
+675 
+	`SKIP_CHAR
+(
+¡ršg
+);
+
+676  
+ouut_v®ue
+;
+
+677 
+	}
+}
+
+679 
+JSON_V®ue
+ * 
+	$·r£_¡ršg_v®ue
+(cÚ¡ **
+¡ršg
+) {
+
+680 
+JSON_V®ue
+ *
+v®ue
+ = 
+NULL
+;
+
+681 *
+Ãw_¡ršg
+ = 
+	`g‘_quÙed_¡ršg
+(
+¡ršg
+);
+
+682 ià(
+Ãw_¡ršg
+ =ğ
+NULL
+)
+
+683  
+NULL
+;
+
+684 
+v®ue
+ = 
+	`jsÚ_v®ue_š™_¡ršg_no_cİy
+(
+Ãw_¡ršg
+);
+
+685 ià(
+v®ue
+ =ğ
+NULL
+) {
+
+686 
+	`·rsÚ_ä“
+(
+Ãw_¡ršg
+);
+
+687  
+NULL
+;
+
+689  
+v®ue
+;
+
+690 
+	}
+}
+
+692 
+JSON_V®ue
+ * 
+	$·r£_boŞ—n_v®ue
+(cÚ¡ **
+¡ršg
+) {
+
+693 
+size_t
+ 
+Œue_tok’_size
+ = 
+	`SIZEOF_TOKEN
+("true");
+
+694 
+size_t
+ 
+çl£_tok’_size
+ = 
+	`SIZEOF_TOKEN
+("false");
+
+695 ià(
+	`¡ºcmp
+("Œue", *
+¡ršg
+, 
+Œue_tok’_size
+) == 0) {
+
+696 *
+¡ršg
+ +ğ
+Œue_tok’_size
+;
+
+697  
+	`jsÚ_v®ue_š™_boŞ—n
+(1);
+
+698 } ià(
+	`¡ºcmp
+("çl£", *
+¡ršg
+, 
+çl£_tok’_size
+) == 0) {
+
+699 *
+¡ršg
+ +ğ
+çl£_tok’_size
+;
+
+700  
+	`jsÚ_v®ue_š™_boŞ—n
+(0);
+
+702  
+NULL
+;
+
+703 
+	}
+}
+
+705 
+JSON_V®ue
+ * 
+	$·r£_numb”_v®ue
+(cÚ¡ **
+¡ršg
+) {
+
+706 *
+’d
+;
+
+707 
+numb”
+ = 
+	`¡¹od
+(*
+¡ršg
+, &
+’d
+);
+
+708 
+JSON_V®ue
+ *
+ouut_v®ue
+;
+
+709 ià(
+	`is_decim®
+(*
+¡ršg
+, 
+’d
+ - *string)) {
+
+710 *
+¡ršg
+ = 
+’d
+;
+
+711 
+ouut_v®ue
+ = 
+	`jsÚ_v®ue_š™_numb”
+(
+numb”
+);
+
+713 
+ouut_v®ue
+ = 
+NULL
+;
+
+715  
+ouut_v®ue
+;
+
+716 
+	}
+}
+
+718 
+JSON_V®ue
+ * 
+	$·r£_nuÎ_v®ue
+(cÚ¡ **
+¡ršg
+) {
+
+719 
+size_t
+ 
+tok’_size
+ = 
+	`SIZEOF_TOKEN
+("null");
+
+720 ià(
+	`¡ºcmp
+("nuÎ", *
+¡ršg
+, 
+tok’_size
+) == 0) {
+
+721 *
+¡ršg
+ +ğ
+tok’_size
+;
+
+722  
+	`jsÚ_v®ue_š™_nuÎ
+();
+
+724  
+NULL
+;
+
+725 
+	}
+}
+
+728 
+	#APPEND_STRING
+(
+¡r
+èdØ{ 
+wr™‹n
+ = 
+	`­³nd_¡ršg
+(
+buf
+, (str)); \
+
+729 ià(
+wr™‹n
+ < 0) {  -1; } \
+
+730 ià(
+buf
+ !ğ
+NULL
+è{ buà+ğ
+wr™‹n
+; } \
+
+731 
+wr™‹n_tÙ®
+ +ğ
+wr™‹n
+; } 0)
+
+	)
+
+733 
+	#APPEND_INDENT
+(
+Ëv–
+èdØ{ 
+wr™‹n
+ = 
+	`­³nd_šd’t
+(
+buf
+, (level)); \
+
+734 ià(
+wr™‹n
+ < 0) {  -1; } \
+
+735 ià(
+buf
+ !ğ
+NULL
+è{ buà+ğ
+wr™‹n
+; } \
+
+736 
+wr™‹n_tÙ®
+ +ğ
+wr™‹n
+; } 0)
+
+	)
+
+738 
+	$jsÚ_£rŸlize_to_bufãr_r
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, *
+buf
+, 
+Ëv–
+, 
+is_´‘ty
+, *
+num_buf
+)
+
+740 cÚ¡ *
+key
+ = 
+NULL
+, *
+¡ršg
+ = NULL;
+
+741 
+JSON_V®ue
+ *
+‹mp_v®ue
+ = 
+NULL
+;
+
+742 
+JSON_A¼ay
+ *
+¬¿y
+ = 
+NULL
+;
+
+743 
+JSON_Objeù
+ *
+objeù
+ = 
+NULL
+;
+
+744 
+size_t
+ 
+i
+ = 0, 
+couÁ
+ = 0;
+
+745 
+num
+ = 0.0;
+
+746 
+wr™‹n
+ = -1, 
+wr™‹n_tÙ®
+ = 0;
+
+748 
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+)) {
+
+749 
+JSONA¼ay
+:
+
+750 
+¬¿y
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+v®ue
+);
+
+751 
+couÁ
+ = 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+¬¿y
+);
+
+752 
+	`APPEND_STRING
+("[");
+
+753 ià(
+couÁ
+ > 0 && 
+is_´‘ty
+)
+
+754 
+	`APPEND_STRING
+("\n");
+
+755 
+i
+ = 0; i < 
+couÁ
+; i++) {
+
+756 ià(
+is_´‘ty
+)
+
+757 
+	`APPEND_INDENT
+(
+Ëv–
+ + 1);
+
+758 
+‹mp_v®ue
+ = 
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+i
+);
+
+759 
+wr™‹n
+ = 
+	`jsÚ_£rŸlize_to_bufãr_r
+(
+‹mp_v®ue
+, 
+buf
+, 
+Ëv–
+ + 1, 
+is_´‘ty
+, 
+num_buf
+);
+
+760 ià(
+wr™‹n
+ < 0)
+
+762 ià(
+buf
+ !ğ
+NULL
+)
+
+763 
+buf
+ +ğ
+wr™‹n
+;
+
+764 
+wr™‹n_tÙ®
+ +ğ
+wr™‹n
+;
+
+765 ià(
+i
+ < (
+couÁ
+ - 1))
+
+766 
+	`APPEND_STRING
+(",");
+
+767 ià(
+is_´‘ty
+)
+
+768 
+	`APPEND_STRING
+("\n");
+
+770 ià(
+couÁ
+ > 0 && 
+is_´‘ty
+)
+
+771 
+	`APPEND_INDENT
+(
+Ëv–
+);
+
+772 
+	`APPEND_STRING
+("]");
+
+773  
+wr™‹n_tÙ®
+;
+
+774 
+JSONObjeù
+:
+
+775 
+objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+v®ue
+);
+
+776 
+couÁ
+ = 
+	`jsÚ_objeù_g‘_couÁ
+(
+objeù
+);
+
+777 
+	`APPEND_STRING
+("{");
+
+778 ià(
+couÁ
+ > 0 && 
+is_´‘ty
+)
+
+779 
+	`APPEND_STRING
+("\n");
+
+780 
+i
+ = 0; i < 
+couÁ
+; i++) {
+
+781 
+key
+ = 
+	`jsÚ_objeù_g‘_Çme
+(
+objeù
+, 
+i
+);
+
+782 ià(
+is_´‘ty
+)
+
+783 
+	`APPEND_INDENT
+(
+Ëv–
+ + 1);
+
+784 
+wr™‹n
+ = 
+	`jsÚ_£rŸlize_¡ršg
+(
+key
+, 
+buf
+);
+
+785 ià(
+wr™‹n
+ < 0)
+
+787 ià(
+buf
+ !ğ
+NULL
+)
+
+788 
+buf
+ +ğ
+wr™‹n
+;
+
+789 
+wr™‹n_tÙ®
+ +ğ
+wr™‹n
+;
+
+790 
+	`APPEND_STRING
+(":");
+
+791 ià(
+is_´‘ty
+)
+
+792 
+	`APPEND_STRING
+(" ");
+
+793 
+‹mp_v®ue
+ = 
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+key
+);
+
+794 
+wr™‹n
+ = 
+	`jsÚ_£rŸlize_to_bufãr_r
+(
+‹mp_v®ue
+, 
+buf
+, 
+Ëv–
+ + 1, 
+is_´‘ty
+, 
+num_buf
+);
+
+795 ià(
+wr™‹n
+ < 0)
+
+797 ià(
+buf
+ !ğ
+NULL
+)
+
+798 
+buf
+ +ğ
+wr™‹n
+;
+
+799 
+wr™‹n_tÙ®
+ +ğ
+wr™‹n
+;
+
+800 ià(
+i
+ < (
+couÁ
+ - 1))
+
+801 
+	`APPEND_STRING
+(",");
+
+802 ià(
+is_´‘ty
+)
+
+803 
+	`APPEND_STRING
+("\n");
+
+805 ià(
+couÁ
+ > 0 && 
+is_´‘ty
+)
+
+806 
+	`APPEND_INDENT
+(
+Ëv–
+);
+
+807 
+	`APPEND_STRING
+("}");
+
+808  
+wr™‹n_tÙ®
+;
+
+809 
+JSONSŒšg
+:
+
+810 
+¡ršg
+ = 
+	`jsÚ_v®ue_g‘_¡ršg
+(
+v®ue
+);
+
+811 
+wr™‹n
+ = 
+	`jsÚ_£rŸlize_¡ršg
+(
+¡ršg
+, 
+buf
+);
+
+812 ià(
+wr™‹n
+ < 0)
+
+814 ià(
+buf
+ !ğ
+NULL
+)
+
+815 
+buf
+ +ğ
+wr™‹n
+;
+
+816 
+wr™‹n_tÙ®
+ +ğ
+wr™‹n
+;
+
+817  
+wr™‹n_tÙ®
+;
+
+818 
+JSONBoŞ—n
+:
+
+819 ià(
+	`jsÚ_v®ue_g‘_boŞ—n
+(
+v®ue
+))
+
+820 
+	`APPEND_STRING
+("true");
+
+822 
+	`APPEND_STRING
+("false");
+
+823  
+wr™‹n_tÙ®
+;
+
+824 
+JSONNumb”
+:
+
+825 
+num
+ = 
+	`jsÚ_v®ue_g‘_numb”
+(
+v®ue
+);
+
+826 ià(
+buf
+ !ğ
+NULL
+)
+
+827 
+num_buf
+ = 
+buf
+;
+
+828 ià(
+num
+ == (()()num))
+
+829 
+wr™‹n
+ = 
+	`¥rštf
+(
+num_buf
+, "%d", ()
+num
+);
+
+831 
+wr™‹n
+ = 
+	`¥rštf
+(
+num_buf
+, 
+DOUBLE_SERIALIZATION_FORMAT
+, 
+num
+);
+
+832 ià(
+wr™‹n
+ < 0)
+
+834 ià(
+buf
+ !ğ
+NULL
+)
+
+835 
+buf
+ +ğ
+wr™‹n
+;
+
+836 
+wr™‹n_tÙ®
+ +ğ
+wr™‹n
+;
+
+837  
+wr™‹n_tÙ®
+;
+
+838 
+JSONNuÎ
+:
+
+839 
+	`APPEND_STRING
+("null");
+
+840  
+wr™‹n_tÙ®
+;
+
+841 
+JSONE¼Ü
+:
+
+846 
+	}
+}
+
+848 
+	$jsÚ_£rŸlize_¡ršg
+(cÚ¡ *
+¡ršg
+, *
+buf
+) {
+
+849 
+size_t
+ 
+i
+ = 0, 
+Ën
+ = 
+	`¡¾’
+(
+¡ršg
+);
+
+850 
+c
+ = '\0';
+
+851 
+wr™‹n
+ = -1, 
+wr™‹n_tÙ®
+ = 0;
+
+852 
+	`APPEND_STRING
+("\"");
+
+853 
+i
+ = 0; i < 
+Ën
+; i++) {
+
+854 
+c
+ = 
+¡ršg
+[
+i
+];
+
+855 
+c
+) {
+
+856 '\"': 
+	`APPEND_STRING
+("\\\""); ;
+
+857 '\\': 
+	`APPEND_STRING
+("\\\\"); ;
+
+858 '\b': 
+	`APPEND_STRING
+("\\b"); ;
+
+859 '\f': 
+	`APPEND_STRING
+("\\f"); ;
+
+860 '\n': 
+	`APPEND_STRING
+("\\n"); ;
+
+861 '\r': 
+	`APPEND_STRING
+("\\r"); ;
+
+862 '\t': 
+	`APPEND_STRING
+("\\t"); ;
+
+864 ià(
+buf
+ !ğ
+NULL
+) {
+
+865 
+buf
+[0] = 
+c
+;
+
+866 
+buf
+ += 1;
+
+868 
+wr™‹n_tÙ®
+ += 1;
+
+872 
+	`APPEND_STRING
+("\"");
+
+873  
+wr™‹n_tÙ®
+;
+
+874 
+	}
+}
+
+876 
+	$­³nd_šd’t
+(*
+buf
+, 
+Ëv–
+) {
+
+877 
+i
+;
+
+878 
+wr™‹n
+ = -1, 
+wr™‹n_tÙ®
+ = 0;
+
+879 
+i
+ = 0; i < 
+Ëv–
+; i++) {
+
+880 
+	`APPEND_STRING
+(" ");
+
+882  
+wr™‹n_tÙ®
+;
+
+883 
+	}
+}
+
+885 
+	$­³nd_¡ršg
+(*
+buf
+, cÚ¡ *
+¡ršg
+) {
+
+886 ià(
+buf
+ =ğ
+NULL
+) {
+
+887  ()
+	`¡¾’
+(
+¡ršg
+);
+
+889  
+	`¥rštf
+(
+buf
+, "%s", 
+¡ršg
+);
+
+890 
+	}
+}
+
+892 #undeà
+APPEND_STRING
+
+
+893 #undeà
+APPEND_INDENT
+
+
+896 
+JSON_V®ue
+ * 
+	$jsÚ_·r£_fe
+(cÚ¡ *
+f’ame
+) {
+
+897 *
+fe_cÚ‹Ás
+ = 
+	`»ad_fe
+(
+f’ame
+);
+
+898 
+JSON_V®ue
+ *
+ouut_v®ue
+ = 
+NULL
+;
+
+899 ià(
+fe_cÚ‹Ás
+ =ğ
+NULL
+)
+
+900  
+NULL
+;
+
+901 
+ouut_v®ue
+ = 
+	`jsÚ_·r£_¡ršg
+(
+fe_cÚ‹Ás
+);
+
+902 
+	`·rsÚ_ä“
+(
+fe_cÚ‹Ás
+);
+
+903  
+ouut_v®ue
+;
+
+904 
+	}
+}
+
+906 
+JSON_V®ue
+ * 
+	$jsÚ_·r£_fe_w™h_comm’ts
+(cÚ¡ *
+f’ame
+) {
+
+907 *
+fe_cÚ‹Ás
+ = 
+	`»ad_fe
+(
+f’ame
+);
+
+908 
+JSON_V®ue
+ *
+ouut_v®ue
+ = 
+NULL
+;
+
+909 ià(
+fe_cÚ‹Ás
+ =ğ
+NULL
+){
+
+910 
+	`´štf
+("file contents == NULL\n");
+
+911  
+NULL
+;
+
+913 
+ouut_v®ue
+ = 
+	`jsÚ_·r£_¡ršg_w™h_comm’ts
+(
+fe_cÚ‹Ás
+);
+
+914 
+	`·rsÚ_ä“
+(
+fe_cÚ‹Ás
+);
+
+915  
+ouut_v®ue
+;
+
+916 
+	}
+}
+
+918 
+JSON_V®ue
+ * 
+	$jsÚ_·r£_¡ršg
+(cÚ¡ *
+¡ršg
+) {
+
+919 ià(
+¡ršg
+ =ğ
+NULL
+)
+
+920  
+NULL
+;
+
+921 
+	`SKIP_WHITESPACES
+(&
+¡ršg
+);
+
+922 ià(*
+¡ršg
+ != '{' && *string != '[')
+
+923  
+NULL
+;
+
+924  
+	`·r£_v®ue
+((cÚ¡ **)&
+¡ršg
+, 0);
+
+925 
+	}
+}
+
+927 
+JSON_V®ue
+ * 
+	$jsÚ_·r£_¡ršg_w™h_comm’ts
+(cÚ¡ *
+¡ršg
+) {
+
+928 
+JSON_V®ue
+ *
+»suÉ
+ = 
+NULL
+;
+
+929 *
+¡ršg_mubË_cİy
+ = 
+NULL
+, *
+¡ršg_mubË_cİy_±r
+ = NULL;
+
+930 
+¡ršg_mubË_cİy
+ = 
+	`·rsÚ_¡rdup
+(
+¡ršg
+);
+
+931 ià(
+¡ršg_mubË_cİy
+ =ğ
+NULL
+){
+
+932 
+	`´štf
+("string mutable copyƒrror\n");
+
+933  
+NULL
+;
+
+935 
+	`»move_comm’ts
+(
+¡ršg_mubË_cİy
+, "/*", "*/");
+
+936 
+	`»move_comm’ts
+(
+¡ršg_mubË_cİy
+, "//", "\n");
+
+937 
+¡ršg_mubË_cİy_±r
+ = 
+¡ršg_mubË_cİy
+;
+
+938 
+	`SKIP_WHITESPACES
+(&
+¡ršg_mubË_cİy_±r
+);
+
+939 ià(*
+¡ršg_mubË_cİy_±r
+ != '{' && *string_mutable_copy_ptr != '[') {
+
+940 
+	`´štf
+("no { ,[\n");
+
+941 
+	`·rsÚ_ä“
+(
+¡ršg_mubË_cİy
+);
+
+942  
+NULL
+;
+
+944 
+»suÉ
+ = 
+	`·r£_v®ue
+((cÚ¡ **)&
+¡ršg_mubË_cİy_±r
+, 0);
+
+945 
+	`·rsÚ_ä“
+(
+¡ršg_mubË_cİy
+);
+
+946  
+»suÉ
+;
+
+947 
+	}
+}
+
+952 
+JSON_V®ue
+ * 
+	$jsÚ_objeù_g‘_v®ue
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+953 ià(
+objeù
+ =ğ
+NULL
+ || 
+Çme
+ == NULL)
+
+954  
+NULL
+;
+
+955  
+	`jsÚ_objeù_ng‘_v®ue
+(
+objeù
+, 
+Çme
+, 
+	`¡¾’
+(name));
+
+956 
+	}
+}
+
+958 cÚ¡ * 
+	$jsÚ_objeù_g‘_¡ršg
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+959  
+	`jsÚ_v®ue_g‘_¡ršg
+(
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+960 
+	}
+}
+
+962 
+	$jsÚ_objeù_g‘_numb”
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+963  
+	`jsÚ_v®ue_g‘_numb”
+(
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+964 
+	}
+}
+
+966 
+JSON_Objeù
+ * 
+	$jsÚ_objeù_g‘_objeù
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+967  
+	`jsÚ_v®ue_g‘_objeù
+(
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+968 
+	}
+}
+
+970 
+JSON_A¼ay
+ * 
+	$jsÚ_objeù_g‘_¬¿y
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+971  
+	`jsÚ_v®ue_g‘_¬¿y
+(
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+972 
+	}
+}
+
+974 
+	$jsÚ_objeù_g‘_boŞ—n
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+975  
+	`jsÚ_v®ue_g‘_boŞ—n
+(
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+976 
+	}
+}
+
+978 
+JSON_V®ue
+ * 
+	$jsÚ_objeù_dÙg‘_v®ue
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+979 cÚ¡ *
+dÙ_pos™iÚ
+ = 
+	`¡rchr
+(
+Çme
+, '.');
+
+980 ià(!
+dÙ_pos™iÚ
+)
+
+981  
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+);
+
+982 
+objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+	`jsÚ_objeù_ng‘_v®ue
+(objeù, 
+Çme
+, 
+dÙ_pos™iÚ
+ -‚ame));
+
+983  
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+objeù
+, 
+dÙ_pos™iÚ
+ + 1);
+
+984 
+	}
+}
+
+986 cÚ¡ * 
+	$jsÚ_objeù_dÙg‘_¡ršg
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+987  
+	`jsÚ_v®ue_g‘_¡ršg
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+988 
+	}
+}
+
+990 
+	$jsÚ_objeù_dÙg‘_numb”
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+991  
+	`jsÚ_v®ue_g‘_numb”
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+992 
+	}
+}
+
+994 
+JSON_Objeù
+ * 
+	$jsÚ_objeù_dÙg‘_objeù
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+995  
+	`jsÚ_v®ue_g‘_objeù
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+996 
+	}
+}
+
+998 
+JSON_A¼ay
+ * 
+	$jsÚ_objeù_dÙg‘_¬¿y
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+999  
+	`jsÚ_v®ue_g‘_¬¿y
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+1000 
+	}
+}
+
+1002 
+	$jsÚ_objeù_dÙg‘_boŞ—n
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+1003  
+	`jsÚ_v®ue_g‘_boŞ—n
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+objeù
+, 
+Çme
+));
+
+1004 
+	}
+}
+
+1006 
+size_t
+ 
+	$jsÚ_objeù_g‘_couÁ
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+) {
+
+1007  
+objeù
+ ? objeù->
+couÁ
+ : 0;
+
+1008 
+	}
+}
+
+1010 cÚ¡ * 
+	$jsÚ_objeù_g‘_Çme
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, 
+size_t
+ 
+šdex
+) {
+
+1011 ià(
+šdex
+ >ğ
+	`jsÚ_objeù_g‘_couÁ
+(
+objeù
+))
+
+1012  
+NULL
+;
+
+1013  
+objeù
+->
+Çmes
+[
+šdex
+];
+
+1014 
+	}
+}
+
+1017 
+JSON_V®ue
+ * 
+	$jsÚ_¬¿y_g‘_v®ue
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+) {
+
+1018 ià(
+šdex
+ >ğ
+	`jsÚ_¬¿y_g‘_couÁ
+(
+¬¿y
+))
+
+1019  
+NULL
+;
+
+1020  
+¬¿y
+->
+™ems
+[
+šdex
+];
+
+1021 
+	}
+}
+
+1023 cÚ¡ * 
+	$jsÚ_¬¿y_g‘_¡ršg
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+) {
+
+1024  
+	`jsÚ_v®ue_g‘_¡ršg
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+šdex
+));
+
+1025 
+	}
+}
+
+1027 
+	$jsÚ_¬¿y_g‘_numb”
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+) {
+
+1028  
+	`jsÚ_v®ue_g‘_numb”
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+šdex
+));
+
+1029 
+	}
+}
+
+1031 
+JSON_Objeù
+ * 
+	$jsÚ_¬¿y_g‘_objeù
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+) {
+
+1032  
+	`jsÚ_v®ue_g‘_objeù
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+šdex
+));
+
+1033 
+	}
+}
+
+1035 
+JSON_A¼ay
+ * 
+	$jsÚ_¬¿y_g‘_¬¿y
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+) {
+
+1036  
+	`jsÚ_v®ue_g‘_¬¿y
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+šdex
+));
+
+1037 
+	}
+}
+
+1039 
+	$jsÚ_¬¿y_g‘_boŞ—n
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+) {
+
+1040  
+	`jsÚ_v®ue_g‘_boŞ—n
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+šdex
+));
+
+1041 
+	}
+}
+
+1043 
+size_t
+ 
+	$jsÚ_¬¿y_g‘_couÁ
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+) {
+
+1044  
+¬¿y
+ ?‡¼ay->
+couÁ
+ : 0;
+
+1045 
+	}
+}
+
+1048 
+JSON_V®ue_Ty³
+ 
+	$jsÚ_v®ue_g‘_ty³
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1049  
+v®ue
+ ? v®ue->
+ty³
+ : 
+JSONE¼Ü
+;
+
+1050 
+	}
+}
+
+1052 
+JSON_Objeù
+ * 
+	$jsÚ_v®ue_g‘_objeù
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1053  
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+è=ğ
+JSONObjeù
+ ? v®ue->v®ue.
+objeù
+ : 
+NULL
+;
+
+1054 
+	}
+}
+
+1056 
+JSON_A¼ay
+ * 
+	$jsÚ_v®ue_g‘_¬¿y
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1057  
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+è=ğ
+JSONA¼ay
+ ? v®ue->v®ue.
+¬¿y
+ : 
+NULL
+;
+
+1058 
+	}
+}
+
+1060 cÚ¡ * 
+	$jsÚ_v®ue_g‘_¡ršg
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1061  
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+è=ğ
+JSONSŒšg
+ ? v®ue->v®ue.
+¡ršg
+ : 
+NULL
+;
+
+1062 
+	}
+}
+
+1064 
+	$jsÚ_v®ue_g‘_numb”
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1065  
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+è=ğ
+JSONNumb”
+ ? v®ue->v®ue.
+numb”
+ : 0;
+
+1066 
+	}
+}
+
+1068 
+	$jsÚ_v®ue_g‘_boŞ—n
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1069  
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+è=ğ
+JSONBoŞ—n
+ ? v®ue->v®ue.
+boŞ—n
+ : -1;
+
+1070 
+	}
+}
+
+1072 
+	$jsÚ_v®ue_ä“
+(
+JSON_V®ue
+ *
+v®ue
+) {
+
+1073 
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+)) {
+
+1074 
+JSONObjeù
+:
+
+1075 
+	`jsÚ_objeù_ä“
+(
+v®ue
+->v®ue.
+objeù
+);
+
+1077 
+JSONSŒšg
+:
+
+1078 ià(
+v®ue
+->v®ue.
+¡ršg
+è{ 
+	`·rsÚ_ä“
+(value->value.string); }
+
+1080 
+JSONA¼ay
+:
+
+1081 
+	`jsÚ_¬¿y_ä“
+(
+v®ue
+->v®ue.
+¬¿y
+);
+
+1086 
+	`·rsÚ_ä“
+(
+v®ue
+);
+
+1087 
+	}
+}
+
+1089 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_š™_objeù
+() {
+
+1090 
+JSON_V®ue
+ *
+Ãw_v®ue
+ = (JSON_V®ue*)
+	`·rsÚ_m®loc
+((JSON_Value));
+
+1091 ià(!
+Ãw_v®ue
+)
+
+1092  
+NULL
+;
+
+1093 
+Ãw_v®ue
+->
+ty³
+ = 
+JSONObjeù
+;
+
+1094 
+Ãw_v®ue
+->
+v®ue
+.
+objeù
+ = 
+	`jsÚ_objeù_š™
+();
+
+1095 ià(!
+Ãw_v®ue
+->
+v®ue
+.
+objeù
+) {
+
+1096 
+	`·rsÚ_ä“
+(
+Ãw_v®ue
+);
+
+1097  
+NULL
+;
+
+1099  
+Ãw_v®ue
+;
+
+1100 
+	}
+}
+
+1102 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_š™_¬¿y
+() {
+
+1103 
+JSON_V®ue
+ *
+Ãw_v®ue
+ = (JSON_V®ue*)
+	`·rsÚ_m®loc
+((JSON_Value));
+
+1104 ià(!
+Ãw_v®ue
+)
+
+1105  
+NULL
+;
+
+1106 
+Ãw_v®ue
+->
+ty³
+ = 
+JSONA¼ay
+;
+
+1107 
+Ãw_v®ue
+->
+v®ue
+.
+¬¿y
+ = 
+	`jsÚ_¬¿y_š™
+();
+
+1108 ià(!
+Ãw_v®ue
+->
+v®ue
+.
+¬¿y
+) {
+
+1109 
+	`·rsÚ_ä“
+(
+Ãw_v®ue
+);
+
+1110  
+NULL
+;
+
+1112  
+Ãw_v®ue
+;
+
+1113 
+	}
+}
+
+1115 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_š™_¡ršg
+(cÚ¡ *
+¡ršg
+) {
+
+1116 *
+cİy
+ = 
+NULL
+;
+
+1117 
+JSON_V®ue
+ *
+v®ue
+;
+
+1118 
+size_t
+ 
+¡ršg_Ën
+ = 0;
+
+1119 ià(
+¡ršg
+ =ğ
+NULL
+)
+
+1120  
+NULL
+;
+
+1121 
+¡ršg_Ën
+ = 
+	`¡¾’
+(
+¡ršg
+);
+
+1122 ià(!
+	`is_v®id_utf8
+(
+¡ršg
+, 
+¡ršg_Ën
+))
+
+1123  
+NULL
+;
+
+1124 
+cİy
+ = 
+	`·rsÚ_¡ºdup
+(
+¡ršg
+, 
+¡ršg_Ën
+);
+
+1125 ià(
+cİy
+ =ğ
+NULL
+)
+
+1126  
+NULL
+;
+
+1127 
+v®ue
+ = 
+	`jsÚ_v®ue_š™_¡ršg_no_cİy
+(
+cİy
+);
+
+1128 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1129 
+	`·rsÚ_ä“
+(
+cİy
+);
+
+1130  
+v®ue
+;
+
+1131 
+	}
+}
+
+1133 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_š™_numb”
+(
+numb”
+) {
+
+1134 
+JSON_V®ue
+ *
+Ãw_v®ue
+ = (JSON_V®ue*)
+	`·rsÚ_m®loc
+((JSON_Value));
+
+1135 ià(!
+Ãw_v®ue
+)
+
+1136  
+NULL
+;
+
+1137 
+Ãw_v®ue
+->
+ty³
+ = 
+JSONNumb”
+;
+
+1138 
+Ãw_v®ue
+->
+v®ue
+.
+numb”
+ =‚umber;
+
+1139  
+Ãw_v®ue
+;
+
+1140 
+	}
+}
+
+1142 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_š™_boŞ—n
+(
+boŞ—n
+) {
+
+1143 
+JSON_V®ue
+ *
+Ãw_v®ue
+ = (JSON_V®ue*)
+	`·rsÚ_m®loc
+((JSON_Value));
+
+1144 ià(!
+Ãw_v®ue
+)
+
+1145  
+NULL
+;
+
+1146 
+Ãw_v®ue
+->
+ty³
+ = 
+JSONBoŞ—n
+;
+
+1147 
+Ãw_v®ue
+->
+v®ue
+.
+boŞ—n
+ = boolean ? 1 : 0;
+
+1148  
+Ãw_v®ue
+;
+
+1149 
+	}
+}
+
+1151 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_š™_nuÎ
+() {
+
+1152 
+JSON_V®ue
+ *
+Ãw_v®ue
+ = (JSON_V®ue*)
+	`·rsÚ_m®loc
+((JSON_Value));
+
+1153 ià(!
+Ãw_v®ue
+)
+
+1154  
+NULL
+;
+
+1155 
+Ãw_v®ue
+->
+ty³
+ = 
+JSONNuÎ
+;
+
+1156  
+Ãw_v®ue
+;
+
+1157 
+	}
+}
+
+1159 
+JSON_V®ue
+ * 
+	$jsÚ_v®ue_d“p_cİy
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1160 
+size_t
+ 
+i
+ = 0;
+
+1161 
+JSON_V®ue
+ *
+»tuº_v®ue
+ = 
+NULL
+, *
+‹mp_v®ue_cİy
+ = NULL, *
+‹mp_v®ue
+ = NULL;
+
+1162 cÚ¡ *
+‹mp_¡ršg
+ = 
+NULL
+, *
+‹mp_key
+ = NULL;
+
+1163 *
+‹mp_¡ršg_cİy
+ = 
+NULL
+;
+
+1164 
+JSON_A¼ay
+ *
+‹mp_¬¿y
+ = 
+NULL
+, *
+‹mp_¬¿y_cİy
+ = NULL;
+
+1165 
+JSON_Objeù
+ *
+‹mp_objeù
+ = 
+NULL
+, *
+‹mp_objeù_cİy
+ = NULL;
+
+1167 
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+)) {
+
+1168 
+JSONA¼ay
+:
+
+1169 
+‹mp_¬¿y
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+v®ue
+);
+
+1170 
+»tuº_v®ue
+ = 
+	`jsÚ_v®ue_š™_¬¿y
+();
+
+1171 ià(
+»tuº_v®ue
+ =ğ
+NULL
+)
+
+1172  
+NULL
+;
+
+1173 
+‹mp_¬¿y_cİy
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+»tuº_v®ue
+);
+
+1174 
+i
+ = 0; i < 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+‹mp_¬¿y
+); i++) {
+
+1175 
+‹mp_v®ue
+ = 
+	`jsÚ_¬¿y_g‘_v®ue
+(
+‹mp_¬¿y
+, 
+i
+);
+
+1176 
+‹mp_v®ue_cİy
+ = 
+	`jsÚ_v®ue_d“p_cİy
+(
+‹mp_v®ue
+);
+
+1177 ià(
+‹mp_v®ue_cİy
+ =ğ
+NULL
+) {
+
+1178 
+	`jsÚ_v®ue_ä“
+(
+»tuº_v®ue
+);
+
+1179  
+NULL
+;
+
+1181 ià(
+	`jsÚ_¬¿y_add
+(
+‹mp_¬¿y_cİy
+, 
+‹mp_v®ue_cİy
+è=ğ
+JSONFau»
+) {
+
+1182 
+	`jsÚ_v®ue_ä“
+(
+»tuº_v®ue
+);
+
+1183 
+	`jsÚ_v®ue_ä“
+(
+‹mp_v®ue_cİy
+);
+
+1184  
+NULL
+;
+
+1187  
+»tuº_v®ue
+;
+
+1188 
+JSONObjeù
+:
+
+1189 
+‹mp_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+v®ue
+);
+
+1190 
+»tuº_v®ue
+ = 
+	`jsÚ_v®ue_š™_objeù
+();
+
+1191 ià(
+»tuº_v®ue
+ =ğ
+NULL
+)
+
+1192  
+NULL
+;
+
+1193 
+‹mp_objeù_cİy
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+»tuº_v®ue
+);
+
+1194 
+i
+ = 0; i < 
+	`jsÚ_objeù_g‘_couÁ
+(
+‹mp_objeù
+); i++) {
+
+1195 
+‹mp_key
+ = 
+	`jsÚ_objeù_g‘_Çme
+(
+‹mp_objeù
+, 
+i
+);
+
+1196 
+‹mp_v®ue
+ = 
+	`jsÚ_objeù_g‘_v®ue
+(
+‹mp_objeù
+, 
+‹mp_key
+);
+
+1197 
+‹mp_v®ue_cİy
+ = 
+	`jsÚ_v®ue_d“p_cİy
+(
+‹mp_v®ue
+);
+
+1198 ià(
+‹mp_v®ue_cİy
+ =ğ
+NULL
+) {
+
+1199 
+	`jsÚ_v®ue_ä“
+(
+»tuº_v®ue
+);
+
+1200  
+NULL
+;
+
+1202 ià(
+	`jsÚ_objeù_add
+(
+‹mp_objeù_cİy
+, 
+‹mp_key
+, 
+‹mp_v®ue_cİy
+è=ğ
+JSONFau»
+) {
+
+1203 
+	`jsÚ_v®ue_ä“
+(
+»tuº_v®ue
+);
+
+1204 
+	`jsÚ_v®ue_ä“
+(
+‹mp_v®ue_cİy
+);
+
+1205  
+NULL
+;
+
+1208  
+»tuº_v®ue
+;
+
+1209 
+JSONBoŞ—n
+:
+
+1210  
+	`jsÚ_v®ue_š™_boŞ—n
+(
+	`jsÚ_v®ue_g‘_boŞ—n
+(
+v®ue
+));
+
+1211 
+JSONNumb”
+:
+
+1212  
+	`jsÚ_v®ue_š™_numb”
+(
+	`jsÚ_v®ue_g‘_numb”
+(
+v®ue
+));
+
+1213 
+JSONSŒšg
+:
+
+1214 
+‹mp_¡ršg
+ = 
+	`jsÚ_v®ue_g‘_¡ršg
+(
+v®ue
+);
+
+1215 
+‹mp_¡ršg_cİy
+ = 
+	`·rsÚ_¡rdup
+(
+‹mp_¡ršg
+);
+
+1216 ià(
+‹mp_¡ršg_cİy
+ =ğ
+NULL
+)
+
+1217  
+NULL
+;
+
+1218 
+»tuº_v®ue
+ = 
+	`jsÚ_v®ue_š™_¡ršg_no_cİy
+(
+‹mp_¡ršg_cİy
+);
+
+1219 ià(
+»tuº_v®ue
+ =ğ
+NULL
+)
+
+1220 
+	`·rsÚ_ä“
+(
+‹mp_¡ršg_cİy
+);
+
+1221  
+»tuº_v®ue
+;
+
+1222 
+JSONNuÎ
+:
+
+1223  
+	`jsÚ_v®ue_š™_nuÎ
+();
+
+1224 
+JSONE¼Ü
+:
+
+1225  
+NULL
+;
+
+1227  
+NULL
+;
+
+1229 
+	}
+}
+
+1231 
+size_t
+ 
+	$jsÚ_£rŸliz©iÚ_size
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1232 
+num_buf
+[1100];
+
+1233 
+»s
+ = 
+	`jsÚ_£rŸlize_to_bufãr_r
+(
+v®ue
+, 
+NULL
+, 0, 0, 
+num_buf
+);
+
+1234  
+»s
+ < 0 ? 0 : (
+size_t
+)(res + 1);
+
+1235 
+	}
+}
+
+1237 
+JSON_Stus
+ 
+	$jsÚ_£rŸlize_to_bufãr
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, *
+buf
+, 
+size_t
+ 
+buf_size_š_by‹s
+) {
+
+1238 
+wr™‹n
+ = -1;
+
+1239 
+size_t
+ 
+Ãeded_size_š_by‹s
+ = 
+	`jsÚ_£rŸliz©iÚ_size
+(
+v®ue
+);
+
+1240 ià(
+Ãeded_size_š_by‹s
+ =ğ0 || 
+buf_size_š_by‹s
+ <‚eeded_size_in_bytes) {
+
+1241  
+JSONFau»
+;
+
+1243 
+wr™‹n
+ = 
+	`jsÚ_£rŸlize_to_bufãr_r
+(
+v®ue
+, 
+buf
+, 0, 0, 
+NULL
+);
+
+1244 ià(
+wr™‹n
+ < 0)
+
+1245  
+JSONFau»
+;
+
+1246  
+JSONSucûss
+;
+
+1247 
+	}
+}
+
+1249 
+JSON_Stus
+ 
+	$jsÚ_£rŸlize_to_fe
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, cÚ¡ *
+f’ame
+) {
+
+1250 
+JSON_Stus
+ 
+»tuº_code
+ = 
+JSONSucûss
+;
+
+1251 
+FILE
+ *
+å
+ = 
+NULL
+;
+
+1252 *
+£rŸlized_¡ršg
+ = 
+	`jsÚ_£rŸlize_to_¡ršg
+(
+v®ue
+);
+
+1253 ià(
+£rŸlized_¡ršg
+ =ğ
+NULL
+) {
+
+1254  
+JSONFau»
+;
+
+1256 
+å
+ = 
+	`fİ’
+ (
+f’ame
+, "w");
+
+1257 ià(
+å
+ !ğ
+NULL
+) {
+
+1258 ià(
+	`åuts
+ (
+£rŸlized_¡ršg
+, 
+å
+è=ğ
+EOF
+) {
+
+1259 
+»tuº_code
+ = 
+JSONFau»
+;
+
+1261 ià(
+	`fşo£
+ (
+å
+è=ğ
+EOF
+) {
+
+1262 
+»tuº_code
+ = 
+JSONFau»
+;
+
+1265 
+	`jsÚ_ä“_£rŸlized_¡ršg
+(
+£rŸlized_¡ršg
+);
+
+1266  
+»tuº_code
+;
+
+1267 
+	}
+}
+
+1269 * 
+	$jsÚ_£rŸlize_to_¡ršg
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1270 
+JSON_Stus
+ 
+£rŸliz©iÚ_»suÉ
+ = 
+JSONFau»
+;
+
+1271 
+size_t
+ 
+buf_size_by‹s
+ = 
+	`jsÚ_£rŸliz©iÚ_size
+(
+v®ue
+);
+
+1272 *
+buf
+ = 
+NULL
+;
+
+1273 ià(
+buf_size_by‹s
+ == 0) {
+
+1274  
+NULL
+;
+
+1276 
+buf
+ = (*)
+	`·rsÚ_m®loc
+(
+buf_size_by‹s
+);
+
+1277 ià(
+buf
+ =ğ
+NULL
+)
+
+1278  
+NULL
+;
+
+1279 
+£rŸliz©iÚ_»suÉ
+ = 
+	`jsÚ_£rŸlize_to_bufãr
+(
+v®ue
+, 
+buf
+, 
+buf_size_by‹s
+);
+
+1280 ià(
+£rŸliz©iÚ_»suÉ
+ =ğ
+JSONFau»
+) {
+
+1281 
+	`jsÚ_ä“_£rŸlized_¡ršg
+(
+buf
+);
+
+1282  
+NULL
+;
+
+1284  
+buf
+;
+
+1285 
+	}
+}
+
+1287 
+size_t
+ 
+	$jsÚ_£rŸliz©iÚ_size_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1288 
+num_buf
+[1100];
+
+1289 
+»s
+ = 
+	`jsÚ_£rŸlize_to_bufãr_r
+(
+v®ue
+, 
+NULL
+, 0, 1, 
+num_buf
+);
+
+1290  
+»s
+ < 0 ? 0 : (
+size_t
+)(res + 1);
+
+1291 
+	}
+}
+
+1293 
+JSON_Stus
+ 
+	$jsÚ_£rŸlize_to_bufãr_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, *
+buf
+, 
+size_t
+ 
+buf_size_š_by‹s
+) {
+
+1294 
+wr™‹n
+ = -1;
+
+1295 
+size_t
+ 
+Ãeded_size_š_by‹s
+ = 
+	`jsÚ_£rŸliz©iÚ_size_´‘ty
+(
+v®ue
+);
+
+1296 ià(
+Ãeded_size_š_by‹s
+ =ğ0 || 
+buf_size_š_by‹s
+ <‚eeded_size_in_bytes)
+
+1297  
+JSONFau»
+;
+
+1298 
+wr™‹n
+ = 
+	`jsÚ_£rŸlize_to_bufãr_r
+(
+v®ue
+, 
+buf
+, 0, 1, 
+NULL
+);
+
+1299 ià(
+wr™‹n
+ < 0)
+
+1300  
+JSONFau»
+;
+
+1301  
+JSONSucûss
+;
+
+1302 
+	}
+}
+
+1304 
+JSON_Stus
+ 
+	$jsÚ_£rŸlize_to_fe_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, cÚ¡ *
+f’ame
+) {
+
+1305 
+JSON_Stus
+ 
+»tuº_code
+ = 
+JSONSucûss
+;
+
+1306 
+FILE
+ *
+å
+ = 
+NULL
+;
+
+1307 *
+£rŸlized_¡ršg
+ = 
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+v®ue
+);
+
+1308 ià(
+£rŸlized_¡ršg
+ =ğ
+NULL
+) {
+
+1309  
+JSONFau»
+;
+
+1311 
+å
+ = 
+	`fİ’
+ (
+f’ame
+, "w");
+
+1312 ià(
+å
+ !ğ
+NULL
+) {
+
+1313 ià(
+	`åuts
+ (
+£rŸlized_¡ršg
+, 
+å
+è=ğ
+EOF
+) {
+
+1314 
+»tuº_code
+ = 
+JSONFau»
+;
+
+1316 ià(
+	`fşo£
+ (
+å
+è=ğ
+EOF
+) {
+
+1317 
+»tuº_code
+ = 
+JSONFau»
+;
+
+1320 
+	`jsÚ_ä“_£rŸlized_¡ršg
+(
+£rŸlized_¡ršg
+);
+
+1321  
+»tuº_code
+;
+
+1322 
+	}
+}
+
+1324 * 
+	$jsÚ_£rŸlize_to_¡ršg_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1325 
+JSON_Stus
+ 
+£rŸliz©iÚ_»suÉ
+ = 
+JSONFau»
+;
+
+1326 
+size_t
+ 
+buf_size_by‹s
+ = 
+	`jsÚ_£rŸliz©iÚ_size_´‘ty
+(
+v®ue
+);
+
+1327 *
+buf
+ = 
+NULL
+;
+
+1328 ià(
+buf_size_by‹s
+ == 0) {
+
+1329  
+NULL
+;
+
+1331 
+buf
+ = (*)
+	`·rsÚ_m®loc
+(
+buf_size_by‹s
+);
+
+1332 ià(
+buf
+ =ğ
+NULL
+)
+
+1333  
+NULL
+;
+
+1334 
+£rŸliz©iÚ_»suÉ
+ = 
+	`jsÚ_£rŸlize_to_bufãr_´‘ty
+(
+v®ue
+, 
+buf
+, 
+buf_size_by‹s
+);
+
+1335 ià(
+£rŸliz©iÚ_»suÉ
+ =ğ
+JSONFau»
+) {
+
+1336 
+	`jsÚ_ä“_£rŸlized_¡ršg
+(
+buf
+);
+
+1337  
+NULL
+;
+
+1339  
+buf
+;
+
+1340 
+	}
+}
+
+1343 
+	$jsÚ_ä“_£rŸlized_¡ršg
+(*
+¡ršg
+) {
+
+1344 
+	`·rsÚ_ä“
+(
+¡ršg
+);
+
+1345 
+	}
+}
+
+1347 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_»move
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+ix
+) {
+
+1348 
+size_t
+ 
+Ï¡_–em’t_ix
+ = 0;
+
+1349 ià(
+¬¿y
+ =ğ
+NULL
+ || 
+ix
+ >ğ
+	`jsÚ_¬¿y_g‘_couÁ
+(array)) {
+
+1350  
+JSONFau»
+;
+
+1352 
+Ï¡_–em’t_ix
+ = 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+¬¿y
+) - 1;
+
+1353 
+	`jsÚ_v®ue_ä“
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+ix
+));
+
+1354 
+¬¿y
+->
+couÁ
+ -= 1;
+
+1355 ià(
+ix
+ !ğ
+Ï¡_–em’t_ix
+)
+
+1356 
+¬¿y
+->
+™ems
+[
+ix
+] = 
+	`jsÚ_¬¿y_g‘_v®ue
+×¼ay, 
+Ï¡_–em’t_ix
+);
+
+1357  
+JSONSucûss
+;
+
+1358 
+	}
+}
+
+1360 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_»¶aû_v®ue
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+ix
+, 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1361 ià(
+¬¿y
+ =ğ
+NULL
+ || 
+v®ue
+ =ğNULL || 
+ix
+ >ğ
+	`jsÚ_¬¿y_g‘_couÁ
+(array)) {
+
+1362  
+JSONFau»
+;
+
+1364 
+	`jsÚ_v®ue_ä“
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+ix
+));
+
+1365 
+¬¿y
+->
+™ems
+[
+ix
+] = 
+v®ue
+;
+
+1366  
+JSONSucûss
+;
+
+1367 
+	}
+}
+
+1369 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_»¶aû_¡ršg
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+, cÚ¡ * 
+¡ršg
+) {
+
+1370 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_¡ršg
+(
+¡ršg
+);
+
+1371 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1372  
+JSONFau»
+;
+
+1373 ià(
+	`jsÚ_¬¿y_»¶aû_v®ue
+(
+¬¿y
+, 
+i
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1374 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1375  
+JSONFau»
+;
+
+1377  
+JSONSucûss
+;
+
+1378 
+	}
+}
+
+1380 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_»¶aû_numb”
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+, 
+numb”
+) {
+
+1381 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_numb”
+(
+numb”
+);
+
+1382 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1383  
+JSONFau»
+;
+
+1384 ià(
+	`jsÚ_¬¿y_»¶aû_v®ue
+(
+¬¿y
+, 
+i
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1385 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1386  
+JSONFau»
+;
+
+1388  
+JSONSucûss
+;
+
+1389 
+	}
+}
+
+1391 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_»¶aû_boŞ—n
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+, 
+boŞ—n
+) {
+
+1392 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_boŞ—n
+(
+boŞ—n
+);
+
+1393 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1394  
+JSONFau»
+;
+
+1395 ià(
+	`jsÚ_¬¿y_»¶aû_v®ue
+(
+¬¿y
+, 
+i
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1396 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1397  
+JSONFau»
+;
+
+1399  
+JSONSucûss
+;
+
+1400 
+	}
+}
+
+1402 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_»¶aû_nuÎ
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+) {
+
+1403 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_nuÎ
+();
+
+1404 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1405  
+JSONFau»
+;
+
+1406 ià(
+	`jsÚ_¬¿y_»¶aû_v®ue
+(
+¬¿y
+, 
+i
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1407 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1408  
+JSONFau»
+;
+
+1410  
+JSONSucûss
+;
+
+1411 
+	}
+}
+
+1413 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_ş—r
+(
+JSON_A¼ay
+ *
+¬¿y
+) {
+
+1414 
+size_t
+ 
+i
+ = 0;
+
+1415 ià(
+¬¿y
+ =ğ
+NULL
+)
+
+1416  
+JSONFau»
+;
+
+1417 
+i
+ = 0; i < 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+¬¿y
+); i++) {
+
+1418 
+	`jsÚ_v®ue_ä“
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+¬¿y
+, 
+i
+));
+
+1420 
+¬¿y
+->
+couÁ
+ = 0;
+
+1421  
+JSONSucûss
+;
+
+1422 
+	}
+}
+
+1424 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_­³nd_v®ue
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1425 ià(
+¬¿y
+ =ğ
+NULL
+ || 
+v®ue
+ == NULL)
+
+1426  
+JSONFau»
+;
+
+1427  
+	`jsÚ_¬¿y_add
+(
+¬¿y
+, 
+v®ue
+);
+
+1428 
+	}
+}
+
+1430 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_­³nd_¡ršg
+(
+JSON_A¼ay
+ *
+¬¿y
+, cÚ¡ *
+¡ršg
+) {
+
+1431 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_¡ršg
+(
+¡ršg
+);
+
+1432 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1433  
+JSONFau»
+;
+
+1434 ià(
+	`jsÚ_¬¿y_­³nd_v®ue
+(
+¬¿y
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1435 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1436  
+JSONFau»
+;
+
+1438  
+JSONSucûss
+;
+
+1439 
+	}
+}
+
+1441 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_­³nd_numb”
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+numb”
+) {
+
+1442 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_numb”
+(
+numb”
+);
+
+1443 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1444  
+JSONFau»
+;
+
+1445 ià(
+	`jsÚ_¬¿y_­³nd_v®ue
+(
+¬¿y
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1446 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1447  
+JSONFau»
+;
+
+1449  
+JSONSucûss
+;
+
+1450 
+	}
+}
+
+1452 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_­³nd_boŞ—n
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+boŞ—n
+) {
+
+1453 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_boŞ—n
+(
+boŞ—n
+);
+
+1454 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1455  
+JSONFau»
+;
+
+1456 ià(
+	`jsÚ_¬¿y_­³nd_v®ue
+(
+¬¿y
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1457 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1458  
+JSONFau»
+;
+
+1460  
+JSONSucûss
+;
+
+1461 
+	}
+}
+
+1463 
+JSON_Stus
+ 
+	$jsÚ_¬¿y_­³nd_nuÎ
+(
+JSON_A¼ay
+ *
+¬¿y
+) {
+
+1464 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_nuÎ
+();
+
+1465 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1466  
+JSONFau»
+;
+
+1467 ià(
+	`jsÚ_¬¿y_­³nd_v®ue
+(
+¬¿y
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1468 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1469  
+JSONFau»
+;
+
+1471  
+JSONSucûss
+;
+
+1472 
+	}
+}
+
+1474 
+JSON_Stus
+ 
+	$jsÚ_objeù_£t_v®ue
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1475 
+size_t
+ 
+i
+ = 0;
+
+1476 
+JSON_V®ue
+ *
+Şd_v®ue
+;
+
+1477 ià(
+objeù
+ =ğ
+NULL
+ || 
+Çme
+ =ğNULL || 
+v®ue
+ == NULL)
+
+1478  
+JSONFau»
+;
+
+1479 
+Şd_v®ue
+ = 
+	`jsÚ_objeù_g‘_v®ue
+(
+objeù
+, 
+Çme
+);
+
+1480 ià(
+Şd_v®ue
+ !ğ
+NULL
+) {
+
+1481 
+	`jsÚ_v®ue_ä“
+(
+Şd_v®ue
+);
+
+1482 
+i
+ = 0; i < 
+	`jsÚ_objeù_g‘_couÁ
+(
+objeù
+); i++) {
+
+1483 ià(
+	`¡rcmp
+(
+objeù
+->
+Çmes
+[
+i
+], 
+Çme
+) == 0) {
+
+1484 
+objeù
+->
+v®ues
+[
+i
+] = 
+v®ue
+;
+
+1485  
+JSONSucûss
+;
+
+1490  
+	`jsÚ_objeù_add
+(
+objeù
+, 
+Çme
+, 
+v®ue
+);
+
+1491 
+	}
+}
+
+1493 
+JSON_Stus
+ 
+	$jsÚ_objeù_£t_¡ršg
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, cÚ¡ *
+¡ršg
+) {
+
+1494  
+	`jsÚ_objeù_£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+	`jsÚ_v®ue_š™_¡ršg
+(
+¡ršg
+));
+
+1495 
+	}
+}
+
+1497 
+JSON_Stus
+ 
+	$jsÚ_objeù_£t_numb”
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+numb”
+) {
+
+1498  
+	`jsÚ_objeù_£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+	`jsÚ_v®ue_š™_numb”
+(
+numb”
+));
+
+1499 
+	}
+}
+
+1501 
+JSON_Stus
+ 
+	$jsÚ_objeù_£t_boŞ—n
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+boŞ—n
+) {
+
+1502  
+	`jsÚ_objeù_£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+	`jsÚ_v®ue_š™_boŞ—n
+(
+boŞ—n
+));
+
+1503 
+	}
+}
+
+1505 
+JSON_Stus
+ 
+	$jsÚ_objeù_£t_nuÎ
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+1506  
+	`jsÚ_objeù_£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+	`jsÚ_v®ue_š™_nuÎ
+());
+
+1507 
+	}
+}
+
+1509 
+JSON_Stus
+ 
+	$jsÚ_objeù_dÙ£t_v®ue
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1510 cÚ¡ *
+dÙ_pos
+ = 
+NULL
+;
+
+1511 *
+cu¼’t_Çme
+ = 
+NULL
+;
+
+1512 
+JSON_Objeù
+ *
+‹mp_obj
+ = 
+NULL
+;
+
+1513 
+JSON_V®ue
+ *
+Ãw_v®ue
+ = 
+NULL
+;
+
+1514 ià(
+v®ue
+ =ğ
+NULL
+ || 
+Çme
+ == NULL || value == NULL)
+
+1515  
+JSONFau»
+;
+
+1516 
+dÙ_pos
+ = 
+	`¡rchr
+(
+Çme
+, '.');
+
+1517 ià(
+dÙ_pos
+ =ğ
+NULL
+) {
+
+1518  
+	`jsÚ_objeù_£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+v®ue
+);
+
+1520 
+cu¼’t_Çme
+ = 
+	`·rsÚ_¡ºdup
+(
+Çme
+, 
+dÙ_pos
+ -‚ame);
+
+1521 
+‹mp_obj
+ = 
+	`jsÚ_objeù_g‘_objeù
+(
+objeù
+, 
+cu¼’t_Çme
+);
+
+1522 ià(
+‹mp_obj
+ =ğ
+NULL
+) {
+
+1523 
+Ãw_v®ue
+ = 
+	`jsÚ_v®ue_š™_objeù
+();
+
+1524 ià(
+Ãw_v®ue
+ =ğ
+NULL
+) {
+
+1525 
+	`·rsÚ_ä“
+(
+cu¼’t_Çme
+);
+
+1526  
+JSONFau»
+;
+
+1528 ià(
+	`jsÚ_objeù_add
+(
+objeù
+, 
+cu¼’t_Çme
+, 
+Ãw_v®ue
+è=ğ
+JSONFau»
+) {
+
+1529 
+	`jsÚ_v®ue_ä“
+(
+Ãw_v®ue
+);
+
+1530 
+	`·rsÚ_ä“
+(
+cu¼’t_Çme
+);
+
+1531  
+JSONFau»
+;
+
+1533 
+‹mp_obj
+ = 
+	`jsÚ_objeù_g‘_objeù
+(
+objeù
+, 
+cu¼’t_Çme
+);
+
+1535 
+	`·rsÚ_ä“
+(
+cu¼’t_Çme
+);
+
+1536  
+	`jsÚ_objeù_dÙ£t_v®ue
+(
+‹mp_obj
+, 
+dÙ_pos
+ + 1, 
+v®ue
+);
+
+1538 
+	}
+}
+
+1540 
+JSON_Stus
+ 
+	$jsÚ_objeù_dÙ£t_¡ršg
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, cÚ¡ *
+¡ršg
+) {
+
+1541 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_¡ršg
+(
+¡ršg
+);
+
+1542 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1543  
+JSONFau»
+;
+
+1544 ià(
+	`jsÚ_objeù_dÙ£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1545 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1546  
+JSONFau»
+;
+
+1548  
+JSONSucûss
+;
+
+1549 
+	}
+}
+
+1551 
+JSON_Stus
+ 
+	$jsÚ_objeù_dÙ£t_numb”
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+numb”
+) {
+
+1552 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_numb”
+(
+numb”
+);
+
+1553 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1554  
+JSONFau»
+;
+
+1555 ià(
+	`jsÚ_objeù_dÙ£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1556 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1557  
+JSONFau»
+;
+
+1559  
+JSONSucûss
+;
+
+1560 
+	}
+}
+
+1562 
+JSON_Stus
+ 
+	$jsÚ_objeù_dÙ£t_boŞ—n
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+boŞ—n
+) {
+
+1563 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_boŞ—n
+(
+boŞ—n
+);
+
+1564 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1565  
+JSONFau»
+;
+
+1566 ià(
+	`jsÚ_objeù_dÙ£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1567 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1568  
+JSONFau»
+;
+
+1570  
+JSONSucûss
+;
+
+1571 
+	}
+}
+
+1573 
+JSON_Stus
+ 
+	$jsÚ_objeù_dÙ£t_nuÎ
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+1574 
+JSON_V®ue
+ *
+v®ue
+ = 
+	`jsÚ_v®ue_š™_nuÎ
+();
+
+1575 ià(
+v®ue
+ =ğ
+NULL
+)
+
+1576  
+JSONFau»
+;
+
+1577 ià(
+	`jsÚ_objeù_dÙ£t_v®ue
+(
+objeù
+, 
+Çme
+, 
+v®ue
+è=ğ
+JSONFau»
+) {
+
+1578 
+	`jsÚ_v®ue_ä“
+(
+v®ue
+);
+
+1579  
+JSONFau»
+;
+
+1581  
+JSONSucûss
+;
+
+1582 
+	}
+}
+
+1584 
+JSON_Stus
+ 
+	$jsÚ_objeù_»move
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+1585 
+size_t
+ 
+i
+ = 0, 
+Ï¡_™em_šdex
+ = 0;
+
+1586 ià(
+objeù
+ =ğ
+NULL
+ || 
+	`jsÚ_objeù_g‘_v®ue
+(objeù, 
+Çme
+) == NULL)
+
+1587  
+JSONFau»
+;
+
+1588 
+Ï¡_™em_šdex
+ = 
+	`jsÚ_objeù_g‘_couÁ
+(
+objeù
+) - 1;
+
+1589 
+i
+ = 0; i < 
+	`jsÚ_objeù_g‘_couÁ
+(
+objeù
+); i++) {
+
+1590 ià(
+	`¡rcmp
+(
+objeù
+->
+Çmes
+[
+i
+], 
+Çme
+) == 0) {
+
+1591 
+	`·rsÚ_ä“
+(
+objeù
+->
+Çmes
+[
+i
+]);
+
+1592 
+	`jsÚ_v®ue_ä“
+(
+objeù
+->
+v®ues
+[
+i
+]);
+
+1593 ià(
+i
+ !ğ
+Ï¡_™em_šdex
+) {
+
+1594 
+objeù
+->
+Çmes
+[
+i
+] = objeù->Çmes[
+Ï¡_™em_šdex
+];
+
+1595 
+objeù
+->
+v®ues
+[
+i
+] = objeù->v®ues[
+Ï¡_™em_šdex
+];
+
+1597 
+objeù
+->
+couÁ
+ -= 1;
+
+1598  
+JSONSucûss
+;
+
+1601  
+JSONFau»
+;
+
+1602 
+	}
+}
+
+1604 
+JSON_Stus
+ 
+	$jsÚ_objeù_dÙ»move
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+) {
+
+1605 cÚ¡ *
+dÙ_pos
+ = 
+	`¡rchr
+(
+Çme
+, '.');
+
+1606 *
+cu¼’t_Çme
+ = 
+NULL
+;
+
+1607 
+JSON_Objeù
+ *
+‹mp_obj
+ = 
+NULL
+;
+
+1608 ià(
+dÙ_pos
+ =ğ
+NULL
+) {
+
+1609  
+	`jsÚ_objeù_»move
+(
+objeù
+, 
+Çme
+);
+
+1611 
+cu¼’t_Çme
+ = 
+	`·rsÚ_¡ºdup
+(
+Çme
+, 
+dÙ_pos
+ -‚ame);
+
+1612 
+‹mp_obj
+ = 
+	`jsÚ_objeù_g‘_objeù
+(
+objeù
+, 
+cu¼’t_Çme
+);
+
+1613 ià(
+‹mp_obj
+ =ğ
+NULL
+) {
+
+1614 
+	`·rsÚ_ä“
+(
+cu¼’t_Çme
+);
+
+1615  
+JSONFau»
+;
+
+1617 
+	`·rsÚ_ä“
+(
+cu¼’t_Çme
+);
+
+1618  
+	`jsÚ_objeù_dÙ»move
+(
+‹mp_obj
+, 
+dÙ_pos
+ + 1);
+
+1620 
+	}
+}
+
+1622 
+JSON_Stus
+ 
+	$jsÚ_objeù_ş—r
+(
+JSON_Objeù
+ *
+objeù
+) {
+
+1623 
+size_t
+ 
+i
+ = 0;
+
+1624 ià(
+objeù
+ =ğ
+NULL
+) {
+
+1625  
+JSONFau»
+;
+
+1627 
+i
+ = 0; i < 
+	`jsÚ_objeù_g‘_couÁ
+(
+objeù
+); i++) {
+
+1628 
+	`·rsÚ_ä“
+(
+objeù
+->
+Çmes
+[
+i
+]);
+
+1629 
+	`jsÚ_v®ue_ä“
+(
+objeù
+->
+v®ues
+[
+i
+]);
+
+1631 
+objeù
+->
+couÁ
+ = 0;
+
+1632  
+JSONSucûss
+;
+
+1633 
+	}
+}
+
+1635 
+JSON_Stus
+ 
+	$jsÚ_v®id©e
+(cÚ¡ 
+JSON_V®ue
+ *
+schema
+, cÚ¡ JSON_V®u*
+v®ue
+) {
+
+1636 
+JSON_V®ue
+ *
+‹mp_schema_v®ue
+ = 
+NULL
+, *
+‹mp_v®ue
+ = NULL;
+
+1637 
+JSON_A¼ay
+ *
+schema_¬¿y
+ = 
+NULL
+, *
+v®ue_¬¿y
+ = NULL;
+
+1638 
+JSON_Objeù
+ *
+schema_objeù
+ = 
+NULL
+, *
+v®ue_objeù
+ = NULL;
+
+1639 
+JSON_V®ue_Ty³
+ 
+schema_ty³
+ = 
+JSONE¼Ü
+, 
+v®ue_ty³
+ = JSONError;
+
+1640 cÚ¡ *
+key
+ = 
+NULL
+;
+
+1641 
+size_t
+ 
+i
+ = 0, 
+couÁ
+ = 0;
+
+1642 ià(
+schema
+ =ğ
+NULL
+ || 
+v®ue
+ == NULL)
+
+1643  
+JSONFau»
+;
+
+1644 
+schema_ty³
+ = 
+	`jsÚ_v®ue_g‘_ty³
+(
+schema
+);
+
+1645 
+v®ue_ty³
+ = 
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+);
+
+1646 ià(
+schema_ty³
+ !ğ
+v®ue_ty³
+ && schema_ty³ !ğ
+JSONNuÎ
+)
+
+1647  
+JSONFau»
+;
+
+1648 
+schema_ty³
+) {
+
+1649 
+JSONA¼ay
+:
+
+1650 
+schema_¬¿y
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+schema
+);
+
+1651 
+v®ue_¬¿y
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+v®ue
+);
+
+1652 
+couÁ
+ = 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+schema_¬¿y
+);
+
+1653 ià(
+couÁ
+ == 0)
+
+1654  
+JSONSucûss
+;
+
+1656 
+‹mp_schema_v®ue
+ = 
+	`jsÚ_¬¿y_g‘_v®ue
+(
+schema_¬¿y
+, 0);
+
+1657 
+i
+ = 0; i < 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+v®ue_¬¿y
+); i++) {
+
+1658 
+‹mp_v®ue
+ = 
+	`jsÚ_¬¿y_g‘_v®ue
+(
+v®ue_¬¿y
+, 
+i
+);
+
+1659 ià(
+	`jsÚ_v®id©e
+(
+‹mp_schema_v®ue
+, 
+‹mp_v®ue
+) == 0) {
+
+1660  
+JSONFau»
+;
+
+1663  
+JSONSucûss
+;
+
+1664 
+JSONObjeù
+:
+
+1665 
+schema_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+schema
+);
+
+1666 
+v®ue_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+v®ue
+);
+
+1667 
+couÁ
+ = 
+	`jsÚ_objeù_g‘_couÁ
+(
+schema_objeù
+);
+
+1668 ià(
+couÁ
+ == 0)
+
+1669  
+JSONSucûss
+;
+
+1670 ià(
+	`jsÚ_objeù_g‘_couÁ
+(
+v®ue_objeù
+è< 
+couÁ
+)
+
+1671  
+JSONFau»
+;
+
+1672 
+i
+ = 0; i < 
+couÁ
+; i++) {
+
+1673 
+key
+ = 
+	`jsÚ_objeù_g‘_Çme
+(
+schema_objeù
+, 
+i
+);
+
+1674 
+‹mp_schema_v®ue
+ = 
+	`jsÚ_objeù_g‘_v®ue
+(
+schema_objeù
+, 
+key
+);
+
+1675 
+‹mp_v®ue
+ = 
+	`jsÚ_objeù_g‘_v®ue
+(
+v®ue_objeù
+, 
+key
+);
+
+1676 ià(
+‹mp_v®ue
+ =ğ
+NULL
+)
+
+1677  
+JSONFau»
+;
+
+1678 ià(
+	`jsÚ_v®id©e
+(
+‹mp_schema_v®ue
+, 
+‹mp_v®ue
+è=ğ
+JSONFau»
+)
+
+1679  
+JSONFau»
+;
+
+1681  
+JSONSucûss
+;
+
+1682 
+JSONSŒšg
+: 
+JSONNumb”
+: 
+JSONBoŞ—n
+: 
+JSONNuÎ
+:
+
+1683  
+JSONSucûss
+;
+
+1684 
+JSONE¼Ü
+: :
+
+1685  
+JSONFau»
+;
+
+1687 
+	}
+}
+
+1689 
+JSON_Stus
+ 
+	$jsÚ_v®ue_equ®s
+(cÚ¡ 
+JSON_V®ue
+ *
+a
+, cÚ¡ JSON_V®u*
+b
+) {
+
+1690 
+JSON_Objeù
+ *
+a_objeù
+ = 
+NULL
+, *
+b_objeù
+ = NULL;
+
+1691 
+JSON_A¼ay
+ *
+a_¬¿y
+ = 
+NULL
+, *
+b_¬¿y
+ = NULL;
+
+1692 cÚ¡ *
+a_¡ršg
+ = 
+NULL
+, *
+b_¡ršg
+ = NULL;
+
+1693 cÚ¡ *
+key
+ = 
+NULL
+;
+
+1694 
+size_t
+ 
+a_couÁ
+ = 0, 
+b_couÁ
+ = 0, 
+i
+ = 0;
+
+1695 
+JSON_V®ue_Ty³
+ 
+a_ty³
+, 
+b_ty³
+;
+
+1696 
+a_ty³
+ = 
+	`jsÚ_v®ue_g‘_ty³
+(
+a
+);
+
+1697 
+b_ty³
+ = 
+	`jsÚ_v®ue_g‘_ty³
+(
+b
+);
+
+1698 ià(
+a_ty³
+ !ğ
+b_ty³
+) {
+
+1701 
+a_ty³
+) {
+
+1702 
+JSONA¼ay
+:
+
+1703 
+a_¬¿y
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+a
+);
+
+1704 
+b_¬¿y
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+b
+);
+
+1705 
+a_couÁ
+ = 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+a_¬¿y
+);
+
+1706 
+b_couÁ
+ = 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+b_¬¿y
+);
+
+1707 ià(
+a_couÁ
+ !ğ
+b_couÁ
+) {
+
+1710 
+i
+ = 0; i < 
+a_couÁ
+; i++) {
+
+1711 ià(!
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_¬¿y_g‘_v®ue
+(
+a_¬¿y
+, 
+i
+),
+
+1712 
+	`jsÚ_¬¿y_g‘_v®ue
+(
+b_¬¿y
+, 
+i
+))) {
+
+1717 
+JSONObjeù
+:
+
+1718 
+a_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+a
+);
+
+1719 
+b_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+b
+);
+
+1720 
+a_couÁ
+ = 
+	`jsÚ_objeù_g‘_couÁ
+(
+a_objeù
+);
+
+1721 
+b_couÁ
+ = 
+	`jsÚ_objeù_g‘_couÁ
+(
+b_objeù
+);
+
+1722 ià(
+a_couÁ
+ !ğ
+b_couÁ
+) {
+
+1725 
+i
+ = 0; i < 
+a_couÁ
+; i++) {
+
+1726 
+key
+ = 
+	`jsÚ_objeù_g‘_Çme
+(
+a_objeù
+, 
+i
+);
+
+1727 ià(!
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_objeù_g‘_v®ue
+(
+a_objeù
+, 
+key
+),
+
+1728 
+	`jsÚ_objeù_g‘_v®ue
+(
+b_objeù
+, 
+key
+))) {
+
+1733 
+JSONSŒšg
+:
+
+1734 
+a_¡ršg
+ = 
+	`jsÚ_v®ue_g‘_¡ršg
+(
+a
+);
+
+1735 
+b_¡ršg
+ = 
+	`jsÚ_v®ue_g‘_¡ršg
+(
+b
+);
+
+1736  
+	`¡rcmp
+(
+a_¡ršg
+, 
+b_¡ršg
+) == 0;
+
+1737 
+JSONBoŞ—n
+:
+
+1738  
+	`jsÚ_v®ue_g‘_boŞ—n
+(
+a
+è=ğjsÚ_v®ue_g‘_boŞ—n(
+b
+);
+
+1739 
+JSONNumb”
+:
+
+1740  
+	`çbs
+(
+	`jsÚ_v®ue_g‘_numb”
+(
+a
+è- jsÚ_v®ue_g‘_numb”(
+b
+)) < 0.000001;
+
+1741 
+JSONE¼Ü
+:
+
+1743 
+JSONNuÎ
+:
+
+1748 
+	}
+}
+
+1750 
+JSON_V®ue_Ty³
+ 
+	$jsÚ_ty³
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1751  
+	`jsÚ_v®ue_g‘_ty³
+(
+v®ue
+);
+
+1752 
+	}
+}
+
+1754 
+JSON_Objeù
+ * 
+	$jsÚ_objeù
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1755  
+	`jsÚ_v®ue_g‘_objeù
+(
+v®ue
+);
+
+1756 
+	}
+}
+
+1758 
+JSON_A¼ay
+ * 
+	$jsÚ_¬¿y
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1759  
+	`jsÚ_v®ue_g‘_¬¿y
+(
+v®ue
+);
+
+1760 
+	}
+}
+
+1762 cÚ¡ * 
+	$jsÚ_¡ršg
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1763  
+	`jsÚ_v®ue_g‘_¡ršg
+(
+v®ue
+);
+
+1764 
+	}
+}
+
+1766 
+	$jsÚ_numb”
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1767  
+	`jsÚ_v®ue_g‘_numb”
+(
+v®ue
+);
+
+1768 
+	}
+}
+
+1770 
+	$jsÚ_boŞ—n
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+) {
+
+1771  
+	`jsÚ_v®ue_g‘_boŞ—n
+(
+v®ue
+);
+
+1772 
+	}
+}
+
+1774 
+	$jsÚ_£t_®loÿtiÚ_funùiÚs
+(
+JSON_M®loc_FunùiÚ
+ 
+m®loc_fun
+, 
+JSON_F»e_FunùiÚ
+ 
+ä“_fun
+) {
+
+1775 
+·rsÚ_m®loc
+ = 
+m®loc_fun
+;
+
+1776 
+·rsÚ_ä“
+ = 
+ä“_fun
+;
+
+1777 
+	}
+}
+
+	@parson.h
+
+24 #iâdeà
+·rsÚ_·rsÚ_h
+
+
+25 
+	#·rsÚ_·rsÚ_h
+
+
+	)
+
+27 #ifdeà
+__ılu¥lus
+
+
+32 
+	~<¡ddef.h
+>
+
+35 
+jsÚ_objeù_t
+ 
+	tJSON_Objeù
+;
+
+36 
+jsÚ_¬¿y_t
+ 
+	tJSON_A¼ay
+;
+
+37 
+jsÚ_v®ue_t
+ 
+	tJSON_V®ue
+;
+
+39 
+	ejsÚ_v®ue_ty³
+ {
+
+40 
+JSONE¼Ü
+ = -1,
+
+41 
+JSONNuÎ
+ = 1,
+
+42 
+JSONSŒšg
+ = 2,
+
+43 
+JSONNumb”
+ = 3,
+
+44 
+JSONObjeù
+ = 4,
+
+45 
+JSONA¼ay
+ = 5,
+
+46 
+JSONBoŞ—n
+ = 6
+
+48 
+	tJSON_V®ue_Ty³
+;
+
+50 
+	ejsÚ_»suÉ_t
+ {
+
+51 
+JSONSucûss
+ = 0,
+
+52 
+JSONFau»
+ = -1
+
+54 
+	tJSON_Stus
+;
+
+56 * (*
+	tJSON_M®loc_FunùiÚ
+)(
+	tsize_t
+);
+
+57 (*
+JSON_F»e_FunùiÚ
+)(*);
+
+61 
+jsÚ_£t_®loÿtiÚ_funùiÚs
+(
+JSON_M®loc_FunùiÚ
+ 
+m®loc_fun
+, 
+JSON_F»e_FunùiÚ
+ 
+ä“_fun
+);
+
+64 
+JSON_V®ue
+ * 
+jsÚ_·r£_fe
+(cÚ¡ *
+f’ame
+);
+
+68 
+JSON_V®ue
+ * 
+jsÚ_·r£_fe_w™h_comm’ts
+(cÚ¡ *
+f’ame
+);
+
+71 
+JSON_V®ue
+ * 
+jsÚ_·r£_¡ršg
+(cÚ¡ *
+¡ršg
+);
+
+75 
+JSON_V®ue
+ * 
+jsÚ_·r£_¡ršg_w™h_comm’ts
+(cÚ¡ *
+¡ršg
+);
+
+78 
+size_t
+ 
+jsÚ_£rŸliz©iÚ_size
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+79 
+JSON_Stus
+ 
+jsÚ_£rŸlize_to_bufãr
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, *
+buf
+, 
+size_t
+ 
+buf_size_š_by‹s
+);
+
+80 
+JSON_Stus
+ 
+jsÚ_£rŸlize_to_fe
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, cÚ¡ *
+f’ame
+);
+
+81 * 
+jsÚ_£rŸlize_to_¡ršg
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+84 
+size_t
+ 
+jsÚ_£rŸliz©iÚ_size_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+85 
+JSON_Stus
+ 
+jsÚ_£rŸlize_to_bufãr_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, *
+buf
+, 
+size_t
+ 
+buf_size_š_by‹s
+);
+
+86 
+JSON_Stus
+ 
+jsÚ_£rŸlize_to_fe_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+, cÚ¡ *
+f’ame
+);
+
+87 * 
+jsÚ_£rŸlize_to_¡ršg_´‘ty
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+89 
+jsÚ_ä“_£rŸlized_¡ršg
+(*
+¡ršg
+);
+
+92 
+jsÚ_v®ue_equ®s
+(cÚ¡ 
+JSON_V®ue
+ *
+a
+, cÚ¡ JSON_V®u*
+b
+);
+
+104 
+JSON_Stus
+ 
+jsÚ_v®id©e
+(cÚ¡ 
+JSON_V®ue
+ *
+schema
+, cÚ¡ JSON_V®u*
+v®ue
+);
+
+109 
+JSON_V®ue
+ * 
+jsÚ_objeù_g‘_v®ue
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+110 cÚ¡ * 
+jsÚ_objeù_g‘_¡ršg
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+111 
+JSON_Objeù
+ * 
+jsÚ_objeù_g‘_objeù
+ (cÚ¡ JSON_Objeù *
+objeù
+, cÚ¡ *
+Çme
+);
+
+112 
+JSON_A¼ay
+ * 
+jsÚ_objeù_g‘_¬¿y
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+113 
+jsÚ_objeù_g‘_numb”
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+114 
+jsÚ_objeù_g‘_boŞ—n
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+120 
+JSON_V®ue
+ * 
+jsÚ_objeù_dÙg‘_v®ue
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+121 cÚ¡ * 
+jsÚ_objeù_dÙg‘_¡ršg
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+122 
+JSON_Objeù
+ * 
+jsÚ_objeù_dÙg‘_objeù
+ (cÚ¡ JSON_Objeù *
+objeù
+, cÚ¡ *
+Çme
+);
+
+123 
+JSON_A¼ay
+ * 
+jsÚ_objeù_dÙg‘_¬¿y
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+124 
+jsÚ_objeù_dÙg‘_numb”
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+125 
+jsÚ_objeù_dÙg‘_boŞ—n
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+128 
+size_t
+ 
+jsÚ_objeù_g‘_couÁ
+(cÚ¡ 
+JSON_Objeù
+ *
+objeù
+);
+
+129 cÚ¡ * 
+jsÚ_objeù_g‘_Çme
+ (cÚ¡ 
+JSON_Objeù
+ *
+objeù
+, 
+size_t
+ 
+šdex
+);
+
+133 
+JSON_Stus
+ 
+jsÚ_objeù_£t_v®ue
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+JSON_V®ue
+ *
+v®ue
+);
+
+134 
+JSON_Stus
+ 
+jsÚ_objeù_£t_¡ršg
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, cÚ¡ *
+¡ršg
+);
+
+135 
+JSON_Stus
+ 
+jsÚ_objeù_£t_numb”
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+numb”
+);
+
+136 
+JSON_Stus
+ 
+jsÚ_objeù_£t_boŞ—n
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+boŞ—n
+);
+
+137 
+JSON_Stus
+ 
+jsÚ_objeù_£t_nuÎ
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+141 
+JSON_Stus
+ 
+jsÚ_objeù_dÙ£t_v®ue
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+JSON_V®ue
+ *
+v®ue
+);
+
+142 
+JSON_Stus
+ 
+jsÚ_objeù_dÙ£t_¡ršg
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, cÚ¡ *
+¡ršg
+);
+
+143 
+JSON_Stus
+ 
+jsÚ_objeù_dÙ£t_numb”
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+numb”
+);
+
+144 
+JSON_Stus
+ 
+jsÚ_objeù_dÙ£t_boŞ—n
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+, 
+boŞ—n
+);
+
+145 
+JSON_Stus
+ 
+jsÚ_objeù_dÙ£t_nuÎ
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+148 
+JSON_Stus
+ 
+jsÚ_objeù_»move
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+Çme
+);
+
+151 
+JSON_Stus
+ 
+jsÚ_objeù_dÙ»move
+(
+JSON_Objeù
+ *
+objeù
+, cÚ¡ *
+key
+);
+
+154 
+JSON_Stus
+ 
+jsÚ_objeù_ş—r
+(
+JSON_Objeù
+ *
+objeù
+);
+
+159 
+JSON_V®ue
+ * 
+jsÚ_¬¿y_g‘_v®ue
+ (cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+);
+
+160 cÚ¡ * 
+jsÚ_¬¿y_g‘_¡ršg
+ (cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+);
+
+161 
+JSON_Objeù
+ * 
+jsÚ_¬¿y_g‘_objeù
+ (cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+);
+
+162 
+JSON_A¼ay
+ * 
+jsÚ_¬¿y_g‘_¬¿y
+ (cÚ¡ JSON_A¼ay *
+¬¿y
+, 
+size_t
+ 
+šdex
+);
+
+163 
+jsÚ_¬¿y_g‘_numb”
+ (cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+);
+
+164 
+jsÚ_¬¿y_g‘_boŞ—n
+(cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+šdex
+);
+
+165 
+size_t
+ 
+jsÚ_¬¿y_g‘_couÁ
+ (cÚ¡ 
+JSON_A¼ay
+ *
+¬¿y
+);
+
+169 
+JSON_Stus
+ 
+jsÚ_¬¿y_»move
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+);
+
+174 
+JSON_Stus
+ 
+jsÚ_¬¿y_»¶aû_v®ue
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+, 
+JSON_V®ue
+ *
+v®ue
+);
+
+175 
+JSON_Stus
+ 
+jsÚ_¬¿y_»¶aû_¡ršg
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+, cÚ¡ * 
+¡ršg
+);
+
+176 
+JSON_Stus
+ 
+jsÚ_¬¿y_»¶aû_numb”
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+, 
+numb”
+);
+
+177 
+JSON_Stus
+ 
+jsÚ_¬¿y_»¶aû_boŞ—n
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+, 
+boŞ—n
+);
+
+178 
+JSON_Stus
+ 
+jsÚ_¬¿y_»¶aû_nuÎ
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+size_t
+ 
+i
+);
+
+181 
+JSON_Stus
+ 
+jsÚ_¬¿y_ş—r
+(
+JSON_A¼ay
+ *
+¬¿y
+);
+
+185 
+JSON_Stus
+ 
+jsÚ_¬¿y_­³nd_v®ue
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+JSON_V®ue
+ *
+v®ue
+);
+
+186 
+JSON_Stus
+ 
+jsÚ_¬¿y_­³nd_¡ršg
+(
+JSON_A¼ay
+ *
+¬¿y
+, cÚ¡ *
+¡ršg
+);
+
+187 
+JSON_Stus
+ 
+jsÚ_¬¿y_­³nd_numb”
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+numb”
+);
+
+188 
+JSON_Stus
+ 
+jsÚ_¬¿y_­³nd_boŞ—n
+(
+JSON_A¼ay
+ *
+¬¿y
+, 
+boŞ—n
+);
+
+189 
+JSON_Stus
+ 
+jsÚ_¬¿y_­³nd_nuÎ
+(
+JSON_A¼ay
+ *
+¬¿y
+);
+
+194 
+JSON_V®ue
+ * 
+jsÚ_v®ue_š™_objeù
+ ();
+
+195 
+JSON_V®ue
+ * 
+jsÚ_v®ue_š™_¬¿y
+ ();
+
+196 
+JSON_V®ue
+ * 
+jsÚ_v®ue_š™_¡ršg
+ (cÚ¡ *
+¡ršg
+);
+
+197 
+JSON_V®ue
+ * 
+jsÚ_v®ue_š™_numb”
+ (
+numb”
+);
+
+198 
+JSON_V®ue
+ * 
+jsÚ_v®ue_š™_boŞ—n
+(
+boŞ—n
+);
+
+199 
+JSON_V®ue
+ * 
+jsÚ_v®ue_š™_nuÎ
+ ();
+
+200 
+JSON_V®ue
+ * 
+jsÚ_v®ue_d“p_cİy
+ (cÚ¡ JSON_V®u*
+v®ue
+);
+
+201 
+jsÚ_v®ue_ä“
+ (
+JSON_V®ue
+ *
+v®ue
+);
+
+203 
+JSON_V®ue_Ty³
+ 
+jsÚ_v®ue_g‘_ty³
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+204 
+JSON_Objeù
+ * 
+jsÚ_v®ue_g‘_objeù
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+205 
+JSON_A¼ay
+ * 
+jsÚ_v®ue_g‘_¬¿y
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+206 cÚ¡ * 
+jsÚ_v®ue_g‘_¡ršg
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+207 
+jsÚ_v®ue_g‘_numb”
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+208 
+jsÚ_v®ue_g‘_boŞ—n
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+211 
+JSON_V®ue_Ty³
+ 
+jsÚ_ty³
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+212 
+JSON_Objeù
+ * 
+jsÚ_objeù
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+213 
+JSON_A¼ay
+ * 
+jsÚ_¬¿y
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+214 cÚ¡ * 
+jsÚ_¡ršg
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+215 
+jsÚ_numb”
+ (cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+216 
+jsÚ_boŞ—n
+(cÚ¡ 
+JSON_V®ue
+ *
+v®ue
+);
+
+218 #ifdeà
+__ılu¥lus
+
+
+	@tests.c
+
+23 #ifdeà
+_MSC_VER
+
+
+24 
+	#_CRT_SECURE_NO_WARNINGS
+
+
+	)
+
+27 
+	~"·rsÚ.h
+"
+
+29 
+	~<¡dio.h
+>
+
+30 
+	~<¡dlib.h
+>
+
+31 
+	~<¡ršg.h
+>
+
+32 
+	~<m©h.h
+>
+
+34 
+	#TEST
+(
+A
+è
+	`´štf
+("%-72s-",#A); \
+
+35 if(
+A
+){
+	`puts
+(" OK");
+‹¡s_·s£d
+++;} \
+
+36 {
+	`puts
+(" FAIL");
+‹¡s_çed
+++;}
+
+	)
+
+37 
+	#STREQ
+(
+A
+, 
+B
+è((Aè&& (Bè? 
+	`¡rcmp
+((A), (B)è=ğ0 : 0)
+
+	)
+
+38 
+	#EPSILON
+ 0.000001
+
+	)
+
+40 
+‹¡_su™e_1
+();
+
+41 
+‹¡_su™e_2
+(
+JSON_V®ue
+ *
+v®ue
+);
+
+42 
+‹¡_su™e_2_no_comm’ts
+();
+
+43 
+‹¡_su™e_2_w™h_comm’ts
+();
+
+44 
+‹¡_su™e_3
+();
+
+45 
+‹¡_su™e_4
+();
+
+46 
+‹¡_su™e_5
+();
+
+47 
+‹¡_su™e_6
+();
+
+48 
+‹¡_su™e_7
+();
+
+49 
+‹¡_su™e_8
+();
+
+50 
+‹¡_su™e_9
+();
+
+52 
+´št_comm™s_šfo
+(cÚ¡ *
+u£ºame
+, cÚ¡ *
+»po
+);
+
+53 
+³rsi¡’û_exam¶e
+();
+
+54 
+£rŸliz©iÚ_exam¶e
+();
+
+56 * 
+»ad_fe
+(cÚ¡ * 
+f’ame
+);
+
+58 
+	g‹¡s_·s£d
+;
+
+59 
+	g‹¡s_çed
+;
+
+61 
+	$maš
+() {
+
+66 
+	`‹¡_su™e_1
+();
+
+67 
+	`‹¡_su™e_2_no_comm’ts
+();
+
+68 
+	`‹¡_su™e_2_w™h_comm’ts
+();
+
+69 
+	`‹¡_su™e_3
+();
+
+70 
+	`‹¡_su™e_4
+();
+
+71 
+	`‹¡_su™e_5
+();
+
+72 
+	`‹¡_su™e_6
+();
+
+73 
+	`‹¡_su™e_7
+();
+
+74 
+	`‹¡_su™e_8
+();
+
+75 
+	`‹¡_su™e_9
+();
+
+76 
+	`´štf
+("Te¡ çed: %d\n", 
+‹¡s_çed
+);
+
+77 
+	`´štf
+("Te¡ ·s£d: %d\n", 
+‹¡s_·s£d
+);
+
+79 
+	}
+}
+
+81 
+	$‹¡_su™e_1
+() {
+
+82 
+JSON_V®ue
+ *
+v®
+;
+
+83 
+	`TEST
+((
+v®
+ = 
+	`jsÚ_·r£_fe
+("‹¡s/‹¡_1_1.txt")è!ğ
+NULL
+);
+
+84 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(
+v®
+)), val));
+
+85 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+v®
+)), val));
+
+86 ià(
+v®
+è{ 
+	`jsÚ_v®ue_ä“
+(val); }
+
+88 
+	`TEST
+((
+v®
+ = 
+	`jsÚ_·r£_fe
+("‹¡s/‹¡_1_2.txt")è!ğ
+NULL
+);
+
+89 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(
+v®
+)), val));
+
+90 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+v®
+)), val));
+
+91 ià(
+v®
+è{ 
+	`jsÚ_v®ue_ä“
+(val); }
+
+93 
+	`TEST
+((
+v®
+ = 
+	`jsÚ_·r£_fe
+("‹¡s/‹¡_1_3.txt")è!ğ
+NULL
+);
+
+94 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(
+v®
+)), val));
+
+95 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+v®
+)), val));
+
+96 ià(
+v®
+è{ 
+	`jsÚ_v®ue_ä“
+(val); }
+
+98 
+	`TEST
+((
+v®
+ = 
+	`jsÚ_·r£_fe_w™h_comm’ts
+("‹¡s/‹¡_1_1.txt")è!ğ
+NULL
+);
+
+99 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(
+v®
+)), val));
+
+100 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+v®
+)), val));
+
+101 ià(
+v®
+è{ 
+	`jsÚ_v®ue_ä“
+(val); }
+
+103 
+	`TEST
+((
+v®
+ = 
+	`jsÚ_·r£_fe_w™h_comm’ts
+("‹¡s/‹¡_1_2.txt")è!ğ
+NULL
+);
+
+104 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(
+v®
+)), val));
+
+105 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+v®
+)), val));
+
+106 ià(
+v®
+è{ 
+	`jsÚ_v®ue_ä“
+(val); }
+
+108 
+	`TEST
+((
+v®
+ = 
+	`jsÚ_·r£_fe_w™h_comm’ts
+("‹¡s/‹¡_1_3.txt")è!ğ
+NULL
+);
+
+109 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(
+v®
+)), val));
+
+110 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+v®
+)), val));
+
+111 ià(
+v®
+è{ 
+	`jsÚ_v®ue_ä“
+(val); }
+
+112 
+	}
+}
+
+114 
+	$‹¡_su™e_2
+(
+JSON_V®ue
+ *
+roÙ_v®ue
+) {
+
+115 
+JSON_Objeù
+ *
+roÙ_objeù
+;
+
+116 
+JSON_A¼ay
+ *
+¬¿y
+;
+
+117 
+size_t
+ 
+i
+;
+
+118 
+	`TEST
+(
+roÙ_v®ue
+);
+
+119 
+	`TEST
+(
+	`jsÚ_v®ue_g‘_ty³
+(
+roÙ_v®ue
+è=ğ
+JSONObjeù
+);
+
+120 
+roÙ_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+roÙ_v®ue
+);
+
+121 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "string"), "lorem ipsum"));
+
+122 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "utf string"), "lorem ipsum"));
+
+123 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "utf-8 string"), "ã‚ã„ã†ãˆãŠ"));
+
+124 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "surrogate string"), "loremğ„ipsumğ§lorem"));
+
+125 
+	`TEST
+(
+	`jsÚ_objeù_g‘_numb”
+(
+roÙ_objeù
+, "positive one") == 1.0);
+
+126 
+	`TEST
+(
+	`jsÚ_objeù_g‘_numb”
+(
+roÙ_objeù
+, "negative one") == -1.0);
+
+127 
+	`TEST
+(
+	`çbs
+(
+	`jsÚ_objeù_g‘_numb”
+(
+roÙ_objeù
+, "h¬dØ·r£‚umb”"è- (-0.000314)è< 
+EPSILON
+);
+
+128 
+	`TEST
+(
+	`jsÚ_objeù_g‘_boŞ—n
+(
+roÙ_objeù
+, "booleanrue") == 1);
+
+129 
+	`TEST
+(
+	`jsÚ_objeù_g‘_boŞ—n
+(
+roÙ_objeù
+, "boolean false") == 0);
+
+130 
+	`TEST
+(
+	`jsÚ_v®ue_g‘_ty³
+(
+	`jsÚ_objeù_g‘_v®ue
+(
+roÙ_objeù
+, "nuÎ")è=ğ
+JSONNuÎ
+);
+
+132 
+¬¿y
+ = 
+	`jsÚ_objeù_g‘_¬¿y
+(
+roÙ_objeù
+, "string‡rray");
+
+133 ià(
+¬¿y
+ !ğ
+NULL
+ && 
+	`jsÚ_¬¿y_g‘_couÁ
+(array) > 1) {
+
+134 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_¬¿y_g‘_¡ršg
+(
+¬¿y
+, 0), "lorem"));
+
+135 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_¬¿y_g‘_¡ršg
+(
+¬¿y
+, 1), "ipsum"));
+
+137 
+‹¡s_çed
+++;
+
+140 
+¬¿y
+ = 
+	`jsÚ_objeù_g‘_¬¿y
+(
+roÙ_objeù
+, "x^2‡rray");
+
+141 ià(
+¬¿y
+ !ğ
+NULL
+) {
+
+142 
+i
+ = 0; i < 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+¬¿y
+); i++) {
+
+143 
+	`TEST
+(
+	`jsÚ_¬¿y_g‘_numb”
+(
+¬¿y
+, 
+i
+) == (i * i));
+
+146 
+‹¡s_çed
+++;
+
+149 
+	`TEST
+(
+	`jsÚ_objeù_g‘_¬¿y
+(
+roÙ_objeù
+, "nÚƒxi¡’ˆ¬¿y"è=ğ
+NULL
+);
+
+150 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_dÙg‘_¡ršg
+(
+roÙ_objeù
+, "object.nested string"), "str"));
+
+151 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_boŞ—n
+(
+roÙ_objeù
+, "object.nestedrue") == 1);
+
+152 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_boŞ—n
+(
+roÙ_objeù
+, "object.nested false") == 0);
+
+153 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+roÙ_objeù
+, "objeù.Ã¡ed‚uÎ"è!ğ
+NULL
+);
+
+154 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_numb”
+(
+roÙ_objeù
+, "object.nested‚umber") == 123);
+
+156 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+roÙ_objeù
+, "should.be.nuÎ"è=ğ
+NULL
+);
+
+157 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+roÙ_objeù
+, "should.be.nuÎ."è=ğ
+NULL
+);
+
+158 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+roÙ_objeù
+, "."è=ğ
+NULL
+);
+
+159 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_v®ue
+(
+roÙ_objeù
+, ""è=ğ
+NULL
+);
+
+161 
+¬¿y
+ = 
+	`jsÚ_objeù_dÙg‘_¬¿y
+(
+roÙ_objeù
+, "object.nested‡rray");
+
+162 
+	`TEST
+(
+¬¿y
+ !ğ
+NULL
+);
+
+163 
+	`TEST
+(
+	`jsÚ_¬¿y_g‘_couÁ
+(
+¬¿y
+) > 1);
+
+164 ià(
+¬¿y
+ !ğ
+NULL
+ && 
+	`jsÚ_¬¿y_g‘_couÁ
+(array) > 1) {
+
+165 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_¬¿y_g‘_¡ršg
+(
+¬¿y
+, 0), "lorem"));
+
+166 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_¬¿y_g‘_¡ršg
+(
+¬¿y
+, 1), "ipsum"));
+
+168 
+	`TEST
+(
+	`jsÚ_objeù_dÙg‘_boŞ—n
+(
+roÙ_objeù
+, "nestedrue"));
+
+170 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "/**/"), "comment"));
+
+171 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "//"), "comment"));
+
+172 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "url"), "https://www.example.com/search?q=12345"));
+
+173 
+	`TEST
+(
+	`STREQ
+(
+	`jsÚ_objeù_g‘_¡ršg
+(
+roÙ_objeù
+, "escaped chars"), "\" \\ /"));
+
+175 
+	`TEST
+(
+	`jsÚ_objeù_g‘_objeù
+(
+roÙ_objeù
+, "em±y objeù"è!ğ
+NULL
+);
+
+176 
+	`TEST
+(
+	`jsÚ_objeù_g‘_¬¿y
+(
+roÙ_objeù
+, "em±y‡¼ay"è!ğ
+NULL
+);
+
+178 
+	}
+}
+
+180 
+	$‹¡_su™e_2_no_comm’ts
+() {
+
+181 cÚ¡ *
+f’ame
+ = "tests/test_2.txt";
+
+182 
+JSON_V®ue
+ *
+roÙ_v®ue
+ = 
+NULL
+;
+
+183 
+roÙ_v®ue
+ = 
+	`jsÚ_·r£_fe
+(
+f’ame
+);
+
+184 
+	`‹¡_su™e_2
+(
+roÙ_v®ue
+);
+
+185 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+roÙ_v®ue
+, 
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(root_value))));
+
+186 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+roÙ_v®ue
+, 
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(root_value))));
+
+187 
+	`jsÚ_v®ue_ä“
+(
+roÙ_v®ue
+);
+
+188 
+	}
+}
+
+190 
+	$‹¡_su™e_2_w™h_comm’ts
+() {
+
+191 cÚ¡ *
+f’ame
+ = "tests/test_2_comments.txt";
+
+192 
+JSON_V®ue
+ *
+roÙ_v®ue
+ = 
+NULL
+;
+
+193 
+roÙ_v®ue
+ = 
+	`jsÚ_·r£_fe_w™h_comm’ts
+(
+f’ame
+);
+
+194 
+	`‹¡_su™e_2
+(
+roÙ_v®ue
+);
+
+195 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+roÙ_v®ue
+, 
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg
+(root_value))));
+
+196 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+roÙ_v®ue
+, 
+	`jsÚ_·r£_¡ršg
+(
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(root_value))));
+
+197 
+	`jsÚ_v®ue_ä“
+(
+roÙ_v®ue
+);
+
+198 
+	}
+}
+
+200 
+	$‹¡_su™e_3
+() {
+
+201 
+Ã¡ed_20x
+[] = "[[[[[[[[[[[[[[[[[[[[\"hi\"]]]]]]]]]]]]]]]]]]]]";
+
+202 
+	`puts
+("Testing invalid strings:");
+
+203 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+(
+NULL
+) == NULL);
+
+204 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+(""è=ğ
+NULL
+);
+
+205 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"lÜem\",]"è=ğ
+NULL
+);
+
+206 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{\"lÜem\":\"sum\",}"è=ğ
+NULL
+);
+
+207 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{lÜem:sum}"è=ğ
+NULL
+);
+
+208 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[,]"è=ğ
+NULL
+);
+
+209 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[,"è=ğ
+NULL
+);
+
+210 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("["è=ğ
+NULL
+);
+
+211 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("]"è=ğ
+NULL
+);
+
+212 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{\"a\":0,\"a\":0}"è=ğ
+NULL
+);
+
+213 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{:,}"è=ğ
+NULL
+);
+
+214 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{,}"è=ğ
+NULL
+);
+
+215 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{,"è=ğ
+NULL
+);
+
+216 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{:"è=ğ
+NULL
+);
+
+217 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{"è=ğ
+NULL
+);
+
+218 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("}"è=ğ
+NULL
+);
+
+219 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("x"è=ğ
+NULL
+);
+
+220 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("\"¡ršg\""è=ğ
+NULL
+);
+
+221 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("{:\"nØÇme\"}"è=ğ
+NULL
+);
+
+222 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[,\"nØfœ¡ v®ue\"]"è=ğ
+NULL
+);
+
+223 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\\u00zz\"]"è=ğ
+NULL
+);
+
+224 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\\u00\"]"è=ğ
+NULL
+);
+
+225 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\\u\"]"è=ğ
+NULL
+);
+
+226 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\\\"]"è=ğ
+NULL
+);
+
+227 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\"\"]"è=ğ
+NULL
+);
+
+228 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\0\"]"è=ğ
+NULL
+);
+
+229 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\a\"]"è=ğ
+NULL
+);
+
+230 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\b\"]"è=ğ
+NULL
+);
+
+231 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\t\"]"è=ğ
+NULL
+);
+
+232 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\n\"]"è=ğ
+NULL
+);
+
+233 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\f\"]"è=ğ
+NULL
+);
+
+234 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\r\"]"è=ğ
+NULL
+);
+
+235 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+(
+Ã¡ed_20x
+è=ğ
+NULL
+);
+
+236 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[0x2]"è=ğ
+NULL
+);
+
+237 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[0X2]"è=ğ
+NULL
+);
+
+238 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[07]"è=ğ
+NULL
+);
+
+239 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[0070]"è=ğ
+NULL
+);
+
+240 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[07.0]"è=ğ
+NULL
+);
+
+241 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[-07]"è=ğ
+NULL
+);
+
+242 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[-007]"è=ğ
+NULL
+);
+
+243 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[-07.0]"è=ğ
+NULL
+);
+
+244 
+	`TEST
+(
+	`jsÚ_·r£_¡ršg
+("[\"\\uDF67\\uD834\"]"è=ğ
+NULL
+);
+
+245 
+	}
+}
+
+247 
+	$‹¡_su™e_4
+() {
+
+248 cÚ¡ *
+f’ame
+ = "tests/test_2.txt";
+
+249 
+JSON_V®ue
+ *
+a
+ = 
+NULL
+, *
+a_cİy
+ = NULL;
+
+250 
+	`´štf
+("Te¡šg %s:\n", 
+f’ame
+);
+
+251 
+a
+ = 
+	`jsÚ_·r£_fe
+(
+f’ame
+);
+
+252 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+a
+,‡));
+
+253 
+a_cİy
+ = 
+	`jsÚ_v®ue_d“p_cİy
+(
+a
+);
+
+254 
+	`TEST
+(
+a_cİy
+ !ğ
+NULL
+);
+
+255 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+a
+, 
+a_cİy
+));
+
+256 
+	}
+}
+
+258 
+	$‹¡_su™e_5
+() {
+
+259 
+JSON_V®ue
+ *
+v®_äom_fe
+ = 
+	`jsÚ_·r£_fe
+("tests/test_5.txt");
+
+261 
+JSON_V®ue
+ *
+v®
+ = 
+NULL
+;
+
+262 
+JSON_Objeù
+ *
+obj
+ = 
+NULL
+;
+
+263 
+JSON_A¼ay
+ *
+š‹»¡s_¬r
+ = 
+NULL
+;
+
+265 
+v®
+ = 
+	`jsÚ_v®ue_š™_objeù
+();
+
+266 
+	`TEST
+(
+v®
+ !ğ
+NULL
+);
+
+268 
+obj
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+v®
+);
+
+269 
+	`TEST
+(
+obj
+ !ğ
+NULL
+);
+
+271 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "fœ¡", "John"è=ğ
+JSONSucûss
+);
+
+272 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "Ï¡", "DÛ"è=ğ
+JSONSucûss
+);
+
+273 
+	`TEST
+(
+	`jsÚ_objeù_£t_numb”
+(
+obj
+, "age", 25è=ğ
+JSONSucûss
+);
+
+274 
+	`TEST
+(
+	`jsÚ_objeù_£t_boŞ—n
+(
+obj
+, "»gi¡”ed", 1è=ğ
+JSONSucûss
+);
+
+276 
+	`TEST
+(
+	`jsÚ_objeù_£t_v®ue
+(
+obj
+, "š‹»¡s", 
+	`jsÚ_v®ue_š™_¬¿y
+()è=ğ
+JSONSucûss
+);
+
+277 
+š‹»¡s_¬r
+ = 
+	`jsÚ_objeù_g‘_¬¿y
+(
+obj
+, "interests");
+
+278 
+	`TEST
+(
+š‹»¡s_¬r
+ !ğ
+NULL
+);
+
+279 
+	`TEST
+(
+	`jsÚ_¬¿y_­³nd_¡ršg
+(
+š‹»¡s_¬r
+, "Wr™šg"è=ğ
+JSONSucûss
+);
+
+280 
+	`TEST
+(
+	`jsÚ_¬¿y_­³nd_¡ršg
+(
+š‹»¡s_¬r
+, "MouÁaš Bikšg"è=ğ
+JSONSucûss
+);
+
+281 
+	`TEST
+(
+	`jsÚ_¬¿y_»¶aû_¡ršg
+(
+š‹»¡s_¬r
+, 0, "R—dšg"è=ğ
+JSONSucûss
+);
+
+283 
+	`TEST
+(
+	`jsÚ_objeù_dÙ£t_¡ršg
+(
+obj
+, "çvÜ™es.cŞÜ", "blue"è=ğ
+JSONSucûss
+);
+
+284 
+	`TEST
+(
+	`jsÚ_objeù_dÙ£t_¡ršg
+(
+obj
+, "çvÜ™es.¥Üt", "ruÂšg"è=ğ
+JSONSucûss
+);
+
+285 
+	`TEST
+(
+	`jsÚ_objeù_dÙ£t_¡ršg
+(
+obj
+, "çvÜ™es.äu™", "­¶e"è=ğ
+JSONSucûss
+);
+
+286 
+	`TEST
+(
+	`jsÚ_objeù_dÙ»move
+(
+obj
+, "çvÜ™es.äu™"è=ğ
+JSONSucûss
+);
+
+287 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "utà¡ršg", "lÜem ipsum"è=ğ
+JSONSucûss
+);
+
+288 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "utf-8 sŒšg", "ã‚ã„ã†ãˆãŠ"è=ğ
+JSONSucûss
+);
+
+289 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "su¼og©¡ršg", "lÜemğ„sumğ§lÜem"è=ğ
+JSONSucûss
+);
+
+290 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "wšdow ·th", "C:\\Wšdows\\P©h"è=ğ
+JSONSucûss
+);
+
+291 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+v®_äom_fe
+, 
+v®
+));
+
+293 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, 
+NULL
+, ""è=ğ
+JSONFau»
+);
+
+294 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "Ï¡", 
+NULL
+è=ğ
+JSONFau»
+);
+
+295 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, 
+NULL
+, NULLè=ğ
+JSONFau»
+);
+
+296 
+	`TEST
+(
+	`jsÚ_objeù_£t_v®ue
+(
+obj
+, 
+NULL
+, NULLè=ğ
+JSONFau»
+);
+
+298 
+	`TEST
+(
+	`jsÚ_objeù_dÙ£t_¡ršg
+(
+obj
+, 
+NULL
+, ""è=ğ
+JSONFau»
+);
+
+299 
+	`TEST
+(
+	`jsÚ_objeù_dÙ£t_¡ršg
+(
+obj
+, "çvÜ™es.cŞÜ", 
+NULL
+è=ğ
+JSONFau»
+);
+
+300 
+	`TEST
+(
+	`jsÚ_objeù_dÙ£t_¡ršg
+(
+obj
+, 
+NULL
+, NULLè=ğ
+JSONFau»
+);
+
+301 
+	`TEST
+(
+	`jsÚ_objeù_dÙ£t_v®ue
+(
+obj
+, 
+NULL
+, NULLè=ğ
+JSONFau»
+);
+
+303 
+	`TEST
+(
+	`jsÚ_¬¿y_­³nd_¡ršg
+(
+NULL
+, "lÜem"è=ğ
+JSONFau»
+);
+
+304 
+	`TEST
+(
+	`jsÚ_¬¿y_­³nd_v®ue
+(
+š‹»¡s_¬r
+, 
+NULL
+è=ğ
+JSONFau»
+);
+
+305 
+	`TEST
+(
+	`jsÚ_¬¿y_­³nd_v®ue
+(
+NULL
+, NULLè=ğ
+JSONFau»
+);
+
+307 
+	`TEST
+(
+	`jsÚ_¬¿y_»move
+(
+NULL
+, 0è=ğ
+JSONFau»
+);
+
+308 
+	`TEST
+(
+	`jsÚ_¬¿y_»¶aû_v®ue
+(
+š‹»¡s_¬r
+, 0, 
+NULL
+è=ğ
+JSONFau»
+);
+
+309 
+	`TEST
+(
+	`jsÚ_¬¿y_»¶aû_¡ršg
+(
+NULL
+, 0, "lÜem"è=ğ
+JSONFau»
+);
+
+310 
+	`TEST
+(
+	`jsÚ_¬¿y_»¶aû_¡ršg
+(
+š‹»¡s_¬r
+, 100, "nÙƒxi¡šg"è=ğ
+JSONFau»
+);
+
+312 
+	`TEST
+(
+	`jsÚ_¬¿y_­³nd_¡ršg
+(
+	`jsÚ_objeù_g‘_¬¿y
+(
+obj
+, "š‹»¡s"), 
+NULL
+è=ğ
+JSONFau»
+);
+
+316 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "cÜ»ù sŒšg", "Îºá½¹ÏƒÎ¼Îµ"è=ğ
+JSONSucûss
+);
+
+318 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "bound¬y 1", "\xed\x9f\xbf"è=ğ
+JSONSucûss
+);
+
+319 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "bound¬y 2", "\x“\x80\x80"è=ğ
+JSONSucûss
+);
+
+320 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "bound¬y 3", "\xef\xbf\xbd"è=ğ
+JSONSucûss
+);
+
+321 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "bound¬y 4", "\xf4\x8f\xbf\xbf"è=ğ
+JSONSucûss
+);
+
+323 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "fœ¡ cÚtšu©iÚ by‹", "\x80"è=ğ
+JSONFau»
+);
+
+324 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "Ï¡ cÚtšu©iÚ by‹", "\xbf"è=ğ
+JSONFau»
+);
+
+326 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "impossibË sequ’û 1", "\xã"è=ğ
+JSONFau»
+);
+
+327 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "impossibË sequ’û 2", "\xff"è=ğ
+JSONFau»
+);
+
+328 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "impossibË sequ’û 3", "\xã\xã\xff\xff"è=ğ
+JSONFau»
+);
+
+330 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg 1", "\xc0\xaf"è=ğ
+JSONFau»
+);
+
+331 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg 2", "\xc1\xbf"è=ğ
+JSONFau»
+);
+
+332 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg 3", "\xe0\x80\xaf"è=ğ
+JSONFau»
+);
+
+333 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg 4", "\xe0\x9f\xbf"è=ğ
+JSONFau»
+);
+
+334 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg 5", "\xf0\x80\x80\xaf"è=ğ
+JSONFau»
+);
+
+335 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg 6", "\xf0\x8f\xbf\xbf"è=ğ
+JSONFau»
+);
+
+336 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg 7", "\xf0\x8f\xbf\xbf"è=ğ
+JSONFau»
+);
+
+338 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg‚uÎ 1", "\xc0\x80"è=ğ
+JSONFau»
+);
+
+339 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg‚uÎ 2", "\xe0\x80\x80"è=ğ
+JSONFau»
+);
+
+340 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg‚uÎ 3", "\xf0\x80\x80\x80"è=ğ
+JSONFau»
+);
+
+341 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg‚uÎ 4", "\xf8\x80\x80\x80\x80"è=ğ
+JSONFau»
+);
+
+342 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "ov”lÚg‚uÎ 5", "\xfc\x80\x80\x80\x80\x80"è=ğ
+JSONFau»
+);
+
+344 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "sšgË su¼og©1", "\xed\xa0\x80"è=ğ
+JSONFau»
+);
+
+345 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "sšgË su¼og©2", "\xed\xaf\xbf"è=ğ
+JSONFau»
+);
+
+346 
+	`TEST
+(
+	`jsÚ_objeù_£t_¡ršg
+(
+obj
+, "sšgË su¼og©3", "\xed\xbf\xbf"è=ğ
+JSONFau»
+);
+
+347 
+	}
+}
+
+349 
+	$‹¡_su™e_6
+() {
+
+350 cÚ¡ *
+f’ame
+ = "tests/test_2.txt";
+
+351 
+JSON_V®ue
+ *
+a
+ = 
+NULL
+;
+
+352 
+JSON_V®ue
+ *
+b
+ = 
+NULL
+;
+
+353 
+a
+ = 
+	`jsÚ_·r£_fe
+(
+f’ame
+);
+
+354 
+b
+ = 
+	`jsÚ_·r£_fe
+(
+f’ame
+);
+
+355 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+a
+, 
+b
+));
+
+356 
+	`jsÚ_objeù_£t_¡ršg
+(
+	`jsÚ_objeù
+(
+a
+), "string", "eki");
+
+357 
+	`TEST
+(!
+	`jsÚ_v®ue_equ®s
+(
+a
+, 
+b
+));
+
+358 
+a
+ = 
+	`jsÚ_v®ue_d“p_cİy
+(
+b
+);
+
+359 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+a
+, 
+b
+));
+
+360 
+	`jsÚ_¬¿y_­³nd_numb”
+(
+	`jsÚ_objeù_g‘_¬¿y
+(
+	`jsÚ_objeù
+(
+b
+), "string‡rray"), 1337);
+
+361 
+	`TEST
+(!
+	`jsÚ_v®ue_equ®s
+(
+a
+, 
+b
+));
+
+362 
+	}
+}
+
+364 
+	$‹¡_su™e_7
+() {
+
+365 
+JSON_V®ue
+ *
+v®_äom_fe
+ = 
+	`jsÚ_·r£_fe
+("tests/test_5.txt");
+
+366 
+JSON_V®ue
+ *
+schema
+ = 
+	`jsÚ_v®ue_š™_objeù
+();
+
+367 
+JSON_Objeù
+ *
+schema_obj
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+schema
+);
+
+368 
+	`jsÚ_objeù_£t_¡ršg
+(
+schema_obj
+, "first", "");
+
+369 
+	`jsÚ_objeù_£t_¡ršg
+(
+schema_obj
+, "last", "");
+
+370 
+	`jsÚ_objeù_£t_numb”
+(
+schema_obj
+, "age", 0);
+
+371 
+	`jsÚ_objeù_£t_nuÎ
+(
+schema_obj
+, "favorites");
+
+372 
+	`TEST
+(
+	`jsÚ_v®id©e
+(
+schema
+, 
+v®_äom_fe
+è=ğ
+JSONSucûss
+);
+
+373 
+	`jsÚ_objeù_£t_¡ršg
+(
+schema_obj
+, "age", "");
+
+374 
+	`TEST
+(
+	`jsÚ_v®id©e
+(
+schema
+, 
+v®_äom_fe
+è=ğ
+JSONFau»
+);
+
+375 
+	}
+}
+
+377 
+	$‹¡_su™e_8
+() {
+
+378 cÚ¡ *
+f’ame
+ = "tests/test_2.txt";
+
+379 cÚ¡ *
+‹mp_f’ame
+ = "tests/test_2_serialized.txt";
+
+380 
+JSON_V®ue
+ *
+a
+ = 
+NULL
+;
+
+381 
+JSON_V®ue
+ *
+b
+ = 
+NULL
+;
+
+382 *
+buf
+ = 
+NULL
+;
+
+383 
+size_t
+ 
+£rŸliz©iÚ_size
+ = 0;
+
+384 
+a
+ = 
+	`jsÚ_·r£_fe
+(
+f’ame
+);
+
+385 
+	`TEST
+(
+	`jsÚ_£rŸlize_to_fe
+(
+a
+, 
+‹mp_f’ame
+è=ğ
+JSONSucûss
+);
+
+386 
+b
+ = 
+	`jsÚ_·r£_fe
+(
+‹mp_f’ame
+);
+
+387 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+a
+, 
+b
+));
+
+388 
+	`»move
+(
+‹mp_f’ame
+);
+
+389 
+£rŸliz©iÚ_size
+ = 
+	`jsÚ_£rŸliz©iÚ_size
+(
+a
+);
+
+390 
+buf
+ = 
+	`jsÚ_£rŸlize_to_¡ršg
+(
+a
+);
+
+391 
+	`TEST
+((
+	`¡¾’
+(
+buf
+è+ 1è=ğ
+£rŸliz©iÚ_size
+);
+
+392 
+	}
+}
+
+394 
+	$‹¡_su™e_9
+() {
+
+395 cÚ¡ *
+f’ame
+ = "tests/test_2_pretty.txt";
+
+396 cÚ¡ *
+‹mp_f’ame
+ = "tests/test_2_serialized_pretty.txt";
+
+397 *
+fe_cÚ‹Ás
+ = 
+NULL
+;
+
+398 *
+£rŸlized
+ = 
+NULL
+;
+
+399 
+JSON_V®ue
+ *
+a
+ = 
+NULL
+;
+
+400 
+JSON_V®ue
+ *
+b
+ = 
+NULL
+;
+
+401 
+size_t
+ 
+£rŸliz©iÚ_size
+ = 0;
+
+402 
+a
+ = 
+	`jsÚ_·r£_fe
+(
+f’ame
+);
+
+403 
+	`TEST
+(
+	`jsÚ_£rŸlize_to_fe_´‘ty
+(
+a
+, 
+‹mp_f’ame
+è=ğ
+JSONSucûss
+);
+
+404 
+b
+ = 
+	`jsÚ_·r£_fe
+(
+‹mp_f’ame
+);
+
+405 
+	`TEST
+(
+	`jsÚ_v®ue_equ®s
+(
+a
+, 
+b
+));
+
+406 
+	`»move
+(
+‹mp_f’ame
+);
+
+407 
+£rŸliz©iÚ_size
+ = 
+	`jsÚ_£rŸliz©iÚ_size_´‘ty
+(
+a
+);
+
+408 
+£rŸlized
+ = 
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+a
+);
+
+409 
+	`TEST
+((
+	`¡¾’
+(
+£rŸlized
+è+ 1è=ğ
+£rŸliz©iÚ_size
+);
+
+411 
+fe_cÚ‹Ás
+ = 
+	`»ad_fe
+(
+f’ame
+);
+
+412 
+	`TEST
+(
+	`STREQ
+(
+fe_cÚ‹Ás
+, 
+£rŸlized
+));
+
+413 
+	}
+}
+
+415 
+	$´št_comm™s_šfo
+(cÚ¡ *
+u£ºame
+, cÚ¡ *
+»po
+) {
+
+416 
+JSON_V®ue
+ *
+roÙ_v®ue
+;
+
+417 
+JSON_A¼ay
+ *
+comm™s
+;
+
+418 
+JSON_Objeù
+ *
+comm™
+;
+
+419 
+size_t
+ 
+i
+;
+
+421 
+cu¾_commªd
+[512];
+
+422 
+ş—nup_commªd
+[256];
+
+423 
+ouut_f’ame
+[] = "commits.json";
+
+426 
+	`¥rštf
+(
+cu¾_commªd
+,
+
+428 
+u£ºame
+, 
+»po
+, 
+ouut_f’ame
+);
+
+429 
+	`¥rštf
+(
+ş—nup_commªd
+, "rm -à%s", 
+ouut_f’ame
+);
+
+430 
+	`sy¡em
+(
+cu¾_commªd
+);
+
+433 
+roÙ_v®ue
+ = 
+	`jsÚ_·r£_fe
+(
+ouut_f’ame
+);
+
+434 ià(
+	`jsÚ_v®ue_g‘_ty³
+(
+roÙ_v®ue
+è!ğ
+JSONA¼ay
+) {
+
+435 
+	`sy¡em
+(
+ş—nup_commªd
+);
+
+440 
+comm™s
+ = 
+	`jsÚ_v®ue_g‘_¬¿y
+(
+roÙ_v®ue
+);
+
+441 
+	`´štf
+("%-10.10s %-10.10s %s\n", "Date", "SHA", "Author");
+
+442 
+i
+ = 0; i < 
+	`jsÚ_¬¿y_g‘_couÁ
+(
+comm™s
+); i++) {
+
+443 
+comm™
+ = 
+	`jsÚ_¬¿y_g‘_objeù
+(
+comm™s
+, 
+i
+);
+
+444 
+	`´štf
+("%.10s %.10s %s\n",
+
+445 
+	`jsÚ_objeù_dÙg‘_¡ršg
+(
+comm™
+, "commit.author.date"),
+
+446 
+	`jsÚ_objeù_g‘_¡ršg
+(
+comm™
+, "sha"),
+
+447 
+	`jsÚ_objeù_dÙg‘_¡ršg
+(
+comm™
+, "commit.author.name"));
+
+451 
+	`jsÚ_v®ue_ä“
+(
+roÙ_v®ue
+);
+
+452 
+	`sy¡em
+(
+ş—nup_commªd
+);
+
+453 
+	}
+}
+
+455 
+	$³rsi¡’û_exam¶e
+() {
+
+456 
+JSON_V®ue
+ *
+schema
+ = 
+	`jsÚ_·r£_¡ršg
+("{\"name\":\"\"}");
+
+457 
+JSON_V®ue
+ *
+u£r_d©a
+ = 
+	`jsÚ_·r£_fe
+("user_data.json");
+
+458 
+buf
+[256];
+
+459 cÚ¡ *
+Çme
+ = 
+NULL
+;
+
+460 ià(
+u£r_d©a
+ =ğ
+NULL
+ || 
+	`jsÚ_v®id©e
+(
+schema
+, u£r_d©aè!ğ
+JSONSucûss
+) {
+
+461 
+	`puts
+("Enter your‚ame:");
+
+462 
+	`sÿnf
+("%s", 
+buf
+);
+
+463 
+u£r_d©a
+ = 
+	`jsÚ_v®ue_š™_objeù
+();
+
+464 
+	`jsÚ_objeù_£t_¡ršg
+(
+	`jsÚ_objeù
+(
+u£r_d©a
+), "Çme", 
+buf
+);
+
+465 
+	`jsÚ_£rŸlize_to_fe
+(
+u£r_d©a
+, "user_data.json");
+
+467 
+Çme
+ = 
+	`jsÚ_objeù_g‘_¡ršg
+(
+	`jsÚ_objeù
+(
+u£r_d©a
+), "name");
+
+468 
+	`´štf
+("H–lo, %s.", 
+Çme
+);
+
+469 
+	`jsÚ_v®ue_ä“
+(
+schema
+);
+
+470 
+	`jsÚ_v®ue_ä“
+(
+u£r_d©a
+);
+
+472 
+	}
+}
+
+474 
+	$£rŸliz©iÚ_exam¶e
+() {
+
+475 
+JSON_V®ue
+ *
+roÙ_v®ue
+ = 
+	`jsÚ_v®ue_š™_objeù
+();
+
+476 
+JSON_Objeù
+ *
+roÙ_objeù
+ = 
+	`jsÚ_v®ue_g‘_objeù
+(
+roÙ_v®ue
+);
+
+477 *
+£rŸlized_¡ršg
+ = 
+NULL
+;
+
+478 
+	`jsÚ_objeù_£t_¡ršg
+(
+roÙ_objeù
+, "name", "John Smith");
+
+479 
+	`jsÚ_objeù_£t_numb”
+(
+roÙ_objeù
+, "age", 25);
+
+480 
+	`jsÚ_objeù_dÙ£t_¡ršg
+(
+roÙ_objeù
+, "address.city", "Cupertino");
+
+481 
+	`jsÚ_objeù_dÙ£t_v®ue
+(
+roÙ_objeù
+, "contact.emails",
+
+482 
+	`jsÚ_·r£_¡ršg
+("[\"email@example.com\", \"email2@example.com\"]"));
+
+483 
+£rŸlized_¡ršg
+ = 
+	`jsÚ_£rŸlize_to_¡ršg_´‘ty
+(
+roÙ_v®ue
+);
+
+484 
+	`puts
+(
+£rŸlized_¡ršg
+);
+
+485 
+	`jsÚ_ä“_£rŸlized_¡ršg
+(
+£rŸlized_¡ršg
+);
+
+486 
+	`jsÚ_v®ue_ä“
+(
+roÙ_v®ue
+);
+
+487 
+	}
+}
+
+489 * 
+	$»ad_fe
+(cÚ¡ * 
+f’ame
+) {
+
+490 
+FILE
+ *
+å
+ = 
+	`fİ’
+(
+f’ame
+, "r");
+
+491 
+size_t
+ 
+fe_size
+;
+
+492 
+pos
+;
+
+493 *
+fe_cÚ‹Ás
+;
+
+494 ià(!
+å
+)
+
+495  
+NULL
+;
+
+496 
+	`f£ek
+(
+å
+, 0L, 
+SEEK_END
+);
+
+497 
+pos
+ = 
+	`á–l
+(
+å
+);
+
+498 ià(
+pos
+ < 0) {
+
+499 
+	`fşo£
+(
+å
+);
+
+500  
+NULL
+;
+
+502 
+fe_size
+ = 
+pos
+;
+
+503 
+	`»wšd
+(
+å
+);
+
+504 
+fe_cÚ‹Ás
+ = (*)
+	`m®loc
+((è* (
+fe_size
+ + 1));
+
+505 ià(!
+fe_cÚ‹Ás
+) {
+
+506 
+	`fşo£
+(
+å
+);
+
+507  
+NULL
+;
+
+509 ià(
+	`ä—d
+(
+fe_cÚ‹Ás
+, 
+fe_size
+, 1, 
+å
+) < 1) {
+
+510 ià(
+	`ã¼Ü
+(
+å
+)) {
+
+511 
+	`fşo£
+(
+å
+);
+
+512 
+	`ä“
+(
+fe_cÚ‹Ás
+);
+
+513  
+NULL
+;
+
+516 
+	`fşo£
+(
+å
+);
+
+517 
+fe_cÚ‹Ás
+[
+fe_size
+] = '\0';
+
+518  
+fe_cÚ‹Ás
+;
+
+519 
+	}
+}
+
+	@
+1
+.
+0
+3
+26
+parson.c
+parson.h
+tests.c
