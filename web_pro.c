@@ -134,7 +134,7 @@ static char *position(){
     JSON_Array *sysarr[5];
     char *response;
     char *type[] ={
-        "invalid","single","diff","invalid","rtk",
+        "invalid","single","diff","invalid","rtk_fix",
         "rtk_float","invalid","invalid","invalid",
         "sbas_single","ssr_float","ssr","ssr_single",
         "sbas","sbas_float", "ppp_single"
